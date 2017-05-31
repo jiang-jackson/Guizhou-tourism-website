@@ -1,0 +1,253 @@
+<include file="Public:header"/>
+
+ </li>
+        <li ><a href="/tpg/">旅游首页 <span class="sr-only">(current)</span></a></li>
+        <li ><a href="/tpg/home/about/about">关于贵州</a></li>
+        <li><a href="/tpg/home/jingdian/jingdian">旅游景点</a></li>
+        <li><a href="/tpg/home/xianlu/xianlu">时尚线路</a></li>
+        <li><a href="/tpg/home/cate/cate">舌尖美食</a></li>
+        <li  class="active"><a href="/tpg/home/hotels/hotel">酒店信息</a></li>
+        
+        <li><a href="/tpg/Home/Message/message">留言板</a></li>
+        <li><a href="/tpg/admin.php">后台管理</a></li>
+      
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</div>
+  <!--nav-->
+
+
+  <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- <link href="__PUBLIC__/hotels/css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
+<link href="__PUBLIC__/hotels/css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="__PUBLIC__/hotels/css/flexslider.css" type="text/css" media="screen" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/hotels/css/JFFormStyle-1.css" />
+<!-- js -->
+<script src="__PUBLIC__/hotels/js/jquery.min.js"></script>
+<script src="__PUBLIC__/hotels/js/modernizr.custom.js"></script>
+<!-- //js -->
+
+<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true   // 100% fit in a container
+			});
+		});
+	</script>
+<!--pop-up-->
+<script src="__PUBLIC__/hotels/js/menu_jquery.js"></script>
+<!--//pop-up-->	
+</head>
+<body>
+
+
+
+
+
+
+<!-- banner-bottom -->
+  <div class="banner-bottom">
+    <!-- container -->
+    <div class="container">
+      <div class="faqs-top-grids">
+        <!--single-page-->
+        <div class="single-page">
+            <div class="col-md-8 single-gd-lt">
+              <div class="single-pg-hdr">
+                <h2>{$hotel.jiudian_name}</h2>
+                <p>{$hotel.jiudian_content}</p>
+                <p>地点：<a href="#">{$hotel.jiudian_site} </a> 价格 ：<a href="#">{$hotel.jiudian_price} </a> 星级 ：<a href="#">{$hotel.jiudian_star}</a></p>
+              </div>
+              <div class="flexslider">
+                      <ul class="slides">
+                        <li data-thumb="{$hotel.jiudian_image}">
+                          <img src="{$hotel.jiudian_image}" alt=""/>
+                        </li>
+                        <li data-thumb="{$hs.jiudian_image}">
+                          <img src="{$hs.jiudian_image}" alt=""/>
+                        </li>
+                       <!--  <li data-thumb="images/p3.jpg">
+                          <img src="images/p3.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p4.jpg">
+                          <img src="images/p4.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p1.jpg">
+                          <img src="images/p1.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p2.jpg">
+                          <img src="images/p2.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p3.jpg">
+                          <img src="images/p3.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p4.jpg">
+                          <img src="images/p4.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p1.jpg">
+                          <img src="images/p1.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p2.jpg">
+                          <img src="images/p2.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p3.jpg">
+                          <img src="images/p3.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p4.jpg">
+                          <img src="images/p4.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p1.jpg">
+                          <img src="images/p1.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p2.jpg">
+                          <img src="images/p2.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p3.jpg">
+                          <img src="images/p3.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p4.jpg">
+                          <img src="images/p4.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p1.jpg">
+                          <img src="images/p1.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p2.jpg">
+                          <img src="images/p2.jpg" alt=""/>
+                        </li>
+                        <li data-thumb="images/p3.jpg">
+                          <img src="images/p3.jpg" alt=""/>
+                        </li> -->
+                      </ul>
+              </div>
+                    <!-- FlexSlider -->
+                  <script defer src="__PUBLIC__/hotels/js/jquery.flexslider.js"></script>
+                    <script>
+                    // Can also be used with $(document).ready()
+                    $(window).load(function() {
+                      $('.flexslider').flexslider({
+                      animation: "slide",
+                      controlNav: "thumbnails"
+                      });
+                    });
+                    </script>
+
+            </div>
+            <div class="col-md-4 single-gd-rt">
+              <div class="spl-btn">
+                <div class="spl-btn-bor">
+                  <a href="#">
+                    <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>                      
+                  </a>
+                  <p>Special Offer</p>  
+                  <script>
+                    $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();   
+                    });
+                  </script>
+                </div>
+                <div class="sp-bor-btn text-right">
+                  <h4><span>$480</span> $299</h4>
+                  <p class="best-pri">Best price</p>
+                  <a class="best-btn" href="{$hotel.jiudian_tel}">Book Now</a>
+                </div>
+              </div>
+             <!--  <div class="map-gd">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63718.72916803739!2d102.31975295000002!3d3.489618449999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ceba2007355f81%3A0xd2ff1ad6a3ca801!2sMentakab%2C+Pahang%2C+Malaysia!5e0!3m2!1sen!2sin!4v1439535856431"></iframe>
+              </div> -->
+              <div class="other-comments">
+                <div class="comments-head">
+                  <h3>热门景点</h3>
+                  <p>4.2/5</p>
+                  <div class="clearfix"></div>
+                </div>
+                <volist name="jingdians" id="jingdian">
+                     <div class="comments-bot">
+                  <p>{$jingdian.jingdian_content}</p>
+                  <h4><span class="glyphicon glyphicon-minus" aria-hidden="true"></span> <a href="/tpg/home/show/showjingdian?id={$jingdian.jingdian_id}" title="">{$jingdian.jingdian_name}</a></h4>
+                </div>
+                </volist>
+               <!--  <div class="comments-bot">
+                  <p>"Vestibulum ullamcorper condimentum luctus. Ut ullamcorper elit eu auctor commodo."</p>
+                  <h4><span class="glyphicon glyphicon-minus" aria-hidden="true"></span> John Doe</h4>
+                </div>
+                <div class="comments-bot">
+                  <p>"Aliquam non purus quis tellus varius egestas ut vitae tellus. Pellentesque non est ac tortor maximus imperdiet at id quam."</p>
+                  <h4><span class="glyphicon glyphicon-minus" aria-hidden="true"></span> Luther</h4>
+                </div>
+                <div class="comments-bot">
+                  <p>"Vestibulum sapien quam, interdum quis bibendum quis, malesuada a nisi. Proin at blandit justo."</p>
+                  <h4><span class="glyphicon glyphicon-minus" aria-hidden="true"></span> Patrick</h4>
+                </div> -->
+              </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!--//single-page-->
+      </div>
+
+
+
+
+
+
+
+
+
+<script defer src="__PUBLIC__/hotels/js/jquery.flexslider.js"></script>
+  <script src="__PUBLIC__/hotels/js/easyResponsiveTabs.js" type="text/javascript"></script>
+  <script src="__PUBLIC__/hotels/js/jquery-ui.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/hotels/js/script.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+      });
+      $(window).load(function(){
+      $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+      $('body').removeClass('loading');
+      }
+      });
+    });
+  </script>
+
+  <div class="footer wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;background-color: gray;">
+  <div class="content container" style="">
+    <div class="footer-link">
+      
+      <!-- 热门自由行div.hotziyou结束 -->
+   
+    <!-- div.footer-link结束 --> 
+    <div class="Contact" >
+            <div><img src="__PUBLIC__/style/image/logo_button.jpg" alt=""></div>
+            <div>
+            服务联系<br>
+            企业电话: 0851-4567-18<br>
+            服务QQ：1591631526<br>
+            服务时间：9:00-23:30
+            </div>
+        </div><!--  div.Contact结束 -->
+        <div class="About">
+             <p>
+              <a href="/tpg/home/about/about" target="_blank">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/tpg/Home/Message/message" target="_blank">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="#" target="_blank">支付方式</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/tpg/home/login/register" target="_blank">法律声明</a></p>
+            </p>
+            <div class="fl">
+                <p>版权所有：Copyright © 影琪集团　　粤ICP备15019244号</p>
+                <p>公司地址：中国贵州贵阳市福田区南园路90号</p>
+            </div>
+        </div> <!-- div..About结束 -->
+  </div>
+  <!--  div.content结束 --> 
+</div>
+</div>
+<!-- div.footer结束 --> 
+  </body> 
+  </html>

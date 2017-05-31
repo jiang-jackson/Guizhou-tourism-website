@@ -1,0 +1,246 @@
+ <include file="Public:header"/>
+ <link href="__PUBLIC__/jindian/whir_css.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      .header,.nav-dao{
+        font-size: 14px;
+      }
+    </style>
+ 	
+
+        </li>
+        <li ><a href="/tpg/">旅游首页 <span class="sr-only">(current)</span></a></li>
+        <li ><a href="/tpg/home/about/about">关于贵州</a></li>
+        <li  class="active"><a href="/tpg/home/jingdian/jingdian">旅游景点</a></li>
+        <li><a href="/tpg/home/xianlu/xianlu">时尚线路</a></li>
+        <li><a href="/tpg/home/cate/cate">舌尖美食</a></li>
+        <li><a href="/tpg/home/hotels/hotel">酒店信息</a></li>
+        
+        <li><a href="/tpg/Home/Message/message">留言板</a></li>
+        <li><a href="/tpg/admin.php">后台管理</a></li>
+      
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</div>
+  <!--nav-->
+
+
+<!-- 主要内容区域 -->
+<!-- <div style="height: 800px;"></div> -->
+<div id="subbox">
+
+
+
+<div class="mainbox">
+<!-- <div class="title6">
+<h1 id="jdt1"><a href="#" class="hover">狼巷迷谷景区</a></h1>
+<h1 id="jdt2"><a href="#">小岗村景区</a></h1>
+<h1 id="jdt3"><a href="#">明皇陵景区</a></h1>
+<h1 id="jdt4"><a href="#">明中都皇城遗址</a></h1>
+<h1 id="jdt5"><a href="#">韭山洞景区</a></h1>
+<h1 id="jdt6"><a href="#">鼓楼景区</a></h1>
+<h1 id="jdt7"><a href="#">龙兴寺</a></h1>
+<h1 id="jdt8"><a href="#">卧牛湖</a></h1>
+</div> -->
+
+<ul class="jdpic">
+<li class="jd1 wow bounceInLeft"><a href="/tpg/home/show/showjingdian?id={$jingdians[1].jingdian_id}"><img src="{$jingdians[1].jingdian_image}" /><span><h2>世界上最大的天然花园---百丽杜鹃</h2><p>百里杜鹃风景名胜区，其中宽1-5公里，绵延50余公里，总面积125.8平方公里的地球上最大的原始杜鹃林带分布杜鹃花60多个品种，占世界杜鹃花种属5个亚属中的全部。最难得的一树不同花，可在一棵树上开出不同颜色的花朵，达7种之多。树龄千年的杜鹃花王，花开季节繁花万朵，独树成春，是迄今为止地球上发现的最大杜鹃花树。</p></span></a></li>
+<li class="jd2 wow bounceInRight"><a href="/tpg/home/show/showjingdian?id={$jingdians[0]['jingdian_id']}"><img src="{$jingdians[0].jingdian_image}" /><span>{$jingdians[0].jingdian_name}</span></a></li>
+<li class="jd3 wow bounceInRight"><a href="/tpg/home/show/showjingdian?id={$jingdians[2][jingdian_id]}"><img src="{$jingdians[2].jingdian_image}" /><span>{$jingdians[2].jingdian_name}</span></a></li>
+<li class="jd4 wow bounceInLeft"><a href="/tpg/home/show/showjingdian?id={$jingdians[3]['jingdian_id']}"><img src="{$jingdians[3].jingdian_image}" /><span>{$jingdians[3].jingdian_name}</span></a></li>
+<li class="jd5 wow swing"><a href="/tpg/home/show/showjingdian?id={$jingdians[4]['jingdian_id']}"><img src="{$jingdians[4].jingdian_image}" /><span>{$jingdians[4].jingdian_name}</span></a></li>
+<li class="jd6 wow bounceInRight"><a href="/tpg/home/show/showjingdian?id={$jingdians[5]['jingdian_id']}"><img src="{$jingdians[5].jingdian_image}" /><span>{$jingdians[5].jingdian_name}</span></a></li>
+<li class="jd7 wow bounceInUp"><a href="/tpg/home/show/showjingdian?id={$jingdians[6]['jingdian_id']}"><img src="{$jingdians[6].jingdian_image}" /><span>{$jingdians[6].jingdian_name}</span></a></li>
+<li class="jd8 wow bounceInDown"><a href="/tpg/home/show/showjingdian?id={$jingdians[7]['jingdian_id']}"><img src="{$jingdians[7].jingdian_image}" /><span>{$jingdians[7].jingdian_name}</span></a></li>
+</ul>
+<div class="more5"><a href="/tpg/home/show/more?name=jingdian">查看更多</a></div>
+<p>百丽杜鹃是中国春观花、夏避暑、秋休闲、冬赏雪等生态旅游胜地</p>
+</div>
+</div>
+<!-- <div class="position">当前位置：<a href="#">首页</a> > 资讯信息</div> -->
+<div class="mainsub">
+<!--左侧部分-->
+<div class="left870">
+<!--凤阳旅游地图-->
+<div class="column4 wow bounceInDown"  data-wow-duration="1.5s" data-wow-delay='1s'>
+<div class="title5"><a href="#">更多></a><h1>贵州旅游地图</h1></div>
+<div class="lvmap ">
+<span class="lvL"><img src="__PUBLIC__/jindian/map.jpeg" width="304" height="221" /></span>
+<span class="lvR">贵州是一个山川秀丽、气候宜人的省份，是迷人的“天然公园”。境内自然风光神奇秀美，山水景色千姿百态，溶洞景观绚丽多彩，野生动物奇妙无穷，文化和革命遗迹闻名遐迩；山、水、洞、林、石交相辉映，浑然一体。黄果树瀑布，位于中国贵州省安顺市镇宁布依族苗族自治县，是珠江水系打邦河的支流白水河九级瀑布群中规模最大的一级瀑布，因当地一种常见的植物“黄果树”而得名，瀑布高度为77.8米，其中主瀑高67米； 瀑布宽101米，其中主瀑顶宽83.3米。黄果树瀑布属喀斯特地貌中的侵蚀裂典型瀑布。黄果树瀑布不只一个瀑布的存在，以它为核心，在它的上游和下游20千米的河段上，共形成了雄、奇、险、秀风格各异的瀑布18个。1999年被世界吉尼斯总部评为世界上最大的瀑布群，列入世界吉尼斯记录。</span>
+</div>
+</div>
+<!--凤阳美景-->
+<div class="column4 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay='1.5s'>
+<div class="title5"><a href="/tpg/home/show/more?name=jingdian">更多></a><h1>贵州美景</h1></div>
+<ul class="list9">
+<volist name="meijing" id="one">
+    <li>
+       <span class="lypic"><a  href="/tpg/home/show/showjingdian?id={$one.jingdian_id}"><img src="{$one.jingdian_image}" width="201" height="141" />
+       <h4 style="text-align: center;font-weight: bolder;margin-top: 6px;">{$one.jingdian_name}</h4>
+
+       </a>
+
+
+       </span>
+        
+      </li>
+</volist>
+
+<!-- <li>
+<span class="lypic"><a  href="#"><img src="./jindian/tianxingdong.jpg" width="201" height="141" /></a></span>
+<span class="lytext"><a href="#">风景名称</a></span>
+</li>
+<li>
+<span class="lypic"><a  href="#"><img src="./jindian/jindaoxia.jpg" width="201" height="141" /></a></span>
+<span class="lytext"><a href="#">风景名称</a></span>
+</li>
+<li>
+<span class="lypic"><a  href="#"><img src="./jindian/zhangjiang.jpg" width="201" height="141" /></a></span>
+<span class="lytext"><a href="#">风景名称</a></span>
+</li> -->
+</ul>
+</div>
+<!--自驾游-->
+<div class="column4 wow bounceInUp ">
+<div class="title5"><a href="/tpg/home/show/more?name=jingdian">更多></a><h1>自驾游</h1></div>
+<ul class="list9">
+<volist name="meijingz" id='meijing'>
+
+
+          <li>
+              <span class="lypic"><a  href="/tpg/home/show/showjingdian?id={$meijing.jingdian_id}"><img src="{$meijing.jingdian_image}" width="201" height="141" /></a></span>
+          <span class="lyinfo">{$meijing.jingdian_name}</span>
+</li>
+</volist>
+
+<!-- <li>
+<span class="lypic"><a  href="#"><img src="./jindian/longgong.jpg" width="201" height="141" /></a></span>
+<span class="lytext"><a href="#">龙宫</a></span>
+<span class="lyinfo">贵州是一个山川秀丽、气候宜人的省份，是迷人的“天然公园”。境内自然风光神奇秀美，山水景色千姿百态，溶洞景观绚丽多彩</span>
+</li>
+<li>
+<span class="lypic"><a  href="#"><img src="./jindian/qinyan.jpeg" width="201" height="141" /></a></span>
+<span class="lytext"><a href="#">青岩古镇</a></span>
+<span class="lyinfo">贵州是一个山川秀丽、气候宜人的省份，是迷人的“天然公园”。境内自然风光神奇秀美，山水景色千姿百态，溶洞景观绚丽多彩</span>
+</li>
+<li>
+<span class="lypic"><a  href="#"><img src="./jindian/miaozhai.jpg" width="201" height="141" /></a></span>
+<span class="lytext"><a href="#">西江千户苗寨</a></span>
+<span class="lyinfo">贵州是一个山川秀丽、气候宜人的省份，是迷人的“天然公园”。境内自然风光神奇秀美，山水景色千姿百态，溶洞景观绚丽多彩</span>
+</li> -->
+</ul>
+</div>
+</div>
+<!--右侧部分-->
+<div class="right310">
+<!--凤阳游记-->
+<div class="column5 wow bounceInLeft">
+<div class="title5"><a href="#"></a><h1>贵州文化</h1></div>
+<div class="topnews1">
+<div class="tjimg"><img src="__PUBLIC__/jindian/lishijie.jpeg" width="108" height="80" /><h2 style="color:blue;margin-top:10px;">美食文化</h2></div>
+
+<div class="tjt"><h2><a href="#">贵州李世杰雕像</a></h2><p>李世杰，贵州省黔西人，乾隆时期从小吏一直官升至兵部尚书。</p>
+
+    </div>
+</div>
+<div class="clear"></div>
+<ul class="list10">
+<volist name="cates" id="cate">
+  <li><span style="color:blue;clear:both;margin-right:20px;">{$i}</span><a href="/tpg/home/show/showcate?id={$cate.id}">{$cate.meishi_name}</a></li>
+</volist>
+<!--<li>·<a href="#">一个王朝的背影——风雨明皇陵</a></li>
+<li>·<a href="#">阳春三月，我们去凤阳听花鼓</a></li>
+<li>·<a href="#">寻幽探古，贵阳一日</a></li>
+<li>·<a href="#">世界保护级别最高的“极危生物”-韭山</a></li>
+<li>·<a href="#">黔西花园</a></li>
+<li>·<a href="#">一个王朝的背影——风雨明皇陵</a></li>
+<li>·<a href="#">阳春三月，我们去凤阳听花鼓</a></li>
+<li>·<a href="#">寻幽探古，贵阳一日</a></li>
+<li>·<a href="#">世界保护级别最高的“极危生物”-韭山</a></li>
+<li>·<a href="#">黔西花园</a></li>-->
+</ul>
+</div>
+<!--旅游攻略发布-->
+<div class="column5 wow bounceInDown" data-wow-duration="1.5s" data-wow-delay='1s'>
+<div class="title5"><a href="/tpg/home/show/more?name=xianlu">更多></a><h1>旅游攻略发布</h1></div>
+<div class="topnews1">
+<div class="tjimg"><img src="__PUBLIC__/jindian/map1.jpeg" width="108" height="80" /></div>
+<div class="tjt"><h2><a href="/tpg/home/show/more?name=xianlu">旅游线路</a></h2><p>踏着夏姑娘的脚步，我们来到2017年贵州旅游网...</p>    </div>
+</div>
+<div class="clear"></div>
+<ul class="list10">
+<volist name="xianlus" id="xianlu">
+     <li>·<a href="/tpg/home/show/showxianlu?id={$xianlu.xianlu_id}">{$xianlu.xianlu_name}</a></li>
+</volist>
+<!-- <li>·<a href="#">一个王朝的背影——风雨明皇陵</a></li>
+<li>·<a href="#">阳春三月，我们去凤阳听花鼓</a></li>
+<li>·<a href="#">寻幽探古，凤阳一日</a></li>
+<li>·<a href="#">世界保护级别最高的“极危生物”-韭山</a></li>
+<li>·<a href="#">凤阳花鼓</a></li>
+<li>·<a href="#">一个王朝的背影——风雨明皇陵</a></li>
+<li>·<a href="#">阳春三月，我们去凤阳听花鼓</a></li>
+<li>·<a href="#">寻幽探古，凤阳一日</a></li>
+<li>·<a href="#">世界保护级别最高的“极危生物”-韭山</a></li>
+<li>·<a href="#">凤阳花鼓</a></li> -->
+</ul>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ <!--main-->
+<include file="Public:foot"/>
+  
+</body>
+    <script src="__PUBLIC__/style/js/jquery-1.11.1.min.js"></script>
+    <script src="__PUBLIC__/style/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/style/js/foot.js"></script>
+    <script>
+	 $(".search-menu").find("dl").find("dd").find("span").click(function(){
+	 	 $(this).addClass("active");
+	 	 $(this).siblings().removeClass("active");
+	 })
+</script>
+    <script>
+    new WOW().init();
+    
+    $(".navbar-nav").children("li").click(function(){
+    	$(this).addClass("active1");
+    	$(this).siblings().remove("active1");
+    })
+    
+    $(".city").children("span").click(function(){
+    	$(".city-m").text($(this).text());
+    })
+    
+    $(".city-xuan").children("ul").find("li").click(function(){
+    	$(this).addClass("active");
+    	$(this).siblings().removeClass("active");
+    })
+    
+    	$(".bao-xuan").children("li").click(function(){
+    		$(this).addClass("active");
+    		$(this).siblings().removeClass("active");
+    	})
+    	
+    	
+    </script>
+</html>

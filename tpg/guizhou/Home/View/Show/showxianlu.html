@@ -1,0 +1,299 @@
+<include file="Public:header"/>
+<style type="text/css" media="screen">
+	.showxianlu_content{
+		width: 1000px;
+		height: 800px;
+		background-color: #f5f5dc;
+		margin:200px auto 10px; 
+	}
+	.xianlu_title{
+		margin-left: 30px;
+	}
+	.xinalu_details,.jingdian_recommend{
+		float: left;
+	}
+	.xinalu_details{
+		position: relative;
+		width: 600px;
+		height: 800px;
+		margin-top: 10px;
+		/* background-color: rgba(0, 0, 0, 1.0) */
+	}
+	.xinalu_details h2{
+		color: #7fff00;
+	}
+	.xinalu_details h3{
+            color: #00ffff;
+	}
+	.xinalu_details p{
+		text-indent: 2em;
+	}
+	.xinalu_details div{
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.jingdian_recommend{
+		width: 380px;
+		height: 600px;
+		margin-left: 20px; 
+		/* background-color: blue; */
+	}
+	.price{
+		margin-top: 10px;
+		font-size: 20px;
+		color: #32cd32;
+	}
+
+	#runner_text{
+			width: 380px;
+			height: 560px;
+			overflow: hidden;
+			border: 10px solid #ccccff;
+			border-top: none;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 10px;
+            z-index: 1120;
+            
+		}
+		#runner_text .runner1 ul{
+			padding-left: 30px;
+			list-style: none;
+		}
+		#runner_text .runner1 ul li{
+			height: 60px;
+			line-height: 60px;
+			width: 360px;
+			border-bottom: 1px dashed black;
+		}
+		#runner_text .runner1 ul li img{
+			margin-top: 4px;
+		}
+		#runner_text .runner1 ul li a:hover{
+			text-decoration: none;
+			color: blue;
+		}
+		#runner_text .runner1 ul li span{
+			font-size: 20px;
+			color: black;
+		}
+		.btnimg{
+			position: absolute;z-index: 1003;width: 598px;height: 400px;top: 72px;cursor: pointer;
+		}
+		.btnimg div{
+			position: absolute;
+			top: 160px;
+			width: 60px;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+			font-size: 56px;
+			color: rgba(255,255,255,0.3);
+			
+			display: none;
+
+		}
+		.btnimg:hover div{
+			display:block; 
+		}
+		.btnimg div:hover{
+			color: rgba(255,255,255,1);
+			
+		}
+		#pre{
+            left: 8px;
+		}
+		#next{
+			right: 8px;
+		}
+</style>
+
+<li ><a href="/tpg/">旅游首页 <span class="sr-only">(current)</span></a></li>
+        <li ><a href="/tpg/home/about/about">关于贵州</a></li>
+        <li><a href="/tpg/home/jingdian/jingdian">旅游景点</a></li>
+        <li class="active"><a href="/tpg/home/xianlu/xianlu">时尚线路</a></li>
+        <li><a href="/tpg/home/cate/cate">舌尖美食</a></li>
+        <li><a href="/tpg/home/hotels/hotel">酒店信息</a></li>
+        
+        <li><a href="/tpg/Home/Message/message">留言板</a></li>
+        <li><a href="/tpg/admin.php">后台管理</a></li>
+      
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</div>
+  <!--nav-->
+
+<div class="showxianlu_content">
+	<div class="xianlu_title">
+		<h1>旅游线路详情</h1>
+	</div>
+	<div class="xinalu_details">
+		<h2>旅游主题 ：{$xianlu.xianlu_name}</h2>
+        <p class="price"><span>价格 ： </span><span>{$xianlu.xianlu_price}</span></p>
+		<div style="height: 400px;overflow: hidden;">
+		    <ul id="slides">
+		    	<li><a href="/tpg/home/jingdian/jingdian" title="">
+			    <img src="{$xianlu.xianlu_image}" alt="" width="600" height="400">
+		        </a></li>
+
+		        <li><a href="/tpg/home/jingdian/jingdian" title="">
+			    <img src="{$jingdians[0].jingdian_image}" alt="" width="600" height="400">
+		        </a></li>
+
+		        <li><a href="/tpg/home/jingdian/jingdian" title="">
+			    <img src="{$jingdians[1].jingdian_image}" alt="" width="600" height="400">
+		        </a></li>
+
+		        <li><a href="/tpg/home/jingdian/jingdian" title="">
+			    <img src="{$jingdians[3].jingdian_image}" alt="" width="600" height="400">
+		        </a></li>
+
+		        <li><a href="/tpg/home/jingdian/jingdian" title="">
+			    <img src="{$jingdians[5].jingdian_image}" alt="" width="600" height="400">
+		        </a></li>
+
+		        <li><a href="/tpg/home/jingdian/jingdian" title="">
+			    <img src="{$jingdians[7].jingdian_image}" alt="" width="600" height="400">
+		        </a></li>
+		    </ul>
+			
+		</div>
+		<!-- <a href="/tpg/home/jingdian/jingdian" title=""> -->
+		 <div class="btnimg" id="btnimg">
+		    	<div id="pre">&lt;</div>
+		    	<div id="next">&gt;</div>
+		  </div>
+		  <!-- </a> -->
+          <!-- 轮播图 -->
+		  <script type="text/javascript">
+		  	$(function(){
+		  		var $index = 0;
+		  		var $li = $("#slides>li").length;
+		  		var timerimg = setInterval(change,2000);
+		  		function change(){
+                   $index++;
+                   if ($index==$li) {
+                   	$index=0;
+                   }
+                   slidesimg();
+		  		}
+		  		
+
+		  		$("#btnimg").mouseover(function(){
+                       clearInterval(timerimg);
+                       // alert('123');
+		  		})
+
+		  		$("#btnimg").mouseout(function(){
+                       timerimg = setInterval(change,2000);
+		  		})
+
+		  		$("#pre").click(function(){
+
+		  			$index--;
+		  			if ($index<=0) {
+		  				$index = $li;
+		  			}
+		  			 slidesimg();
+		  		})
+
+		  		$("#next").click(function(){
+		  			change();
+		  		})
+
+		  		// 轮播图的实现
+		  		function slidesimg(){
+		  			$("#slides>li").eq($index).fadeIn(100).siblings("li").fadeOut(100);
+		  		}
+		  	})
+		  </script>
+		<div>
+			<h3>路线:</h3>
+			<p>{$xianlu.xianlu_content}</p>
+		</div>
+
+		<div>
+			<h3>推荐理由:</h3>
+			<p>{$xianlu.xianlu_reason}</p>
+		</div>
+	</div>
+
+	<!-- 旅游景点推荐 -->
+	<div class="jingdian_recommend">
+		<h2 style="width: 400px;height: 60px;line-height: 60px;background-color: #DCDCDC;text-align: center;">旅游景点推荐</h2>
+
+
+	
+		<div id="runner_text" style="height:600px;">
+      		<div class="runner1" id="runner">
+      			<ul>
+      			<volist name="jingdians" id="jingdian">
+      			    <li>
+      				    <a href="/tpg/home/show/showjingdian?id={$jingdian.jingdian_id}" title="">
+      					<img src="{$jingdian.jingdian_image}" alt="" width="60" height="50">
+      					<span>{$jingdian.jingdian_name}</span>
+      				   </a>
+      					
+      				</li>  
+      			</volist>
+      				 
+
+
+
+      			</ul>
+      		</div>
+      		<div class="runner1" id="runner2">
+      			<ul>
+      			<volist name="jingdians" id="jingdian">
+      			    <li>
+      				    <a href="/tpg/home/show/showjingdian?id={$jingdian.jingdian_id}" title="">
+      					<img src="{$jingdian.jingdian_image}" alt="" width="60" height="50">
+      					<span>{$jingdian.jingdian_name}</span>
+      				   </a>
+      					
+      				</li>  
+      			</volist>
+      				 
+
+
+
+      			</ul>
+      		</div>
+      	</div>
+
+
+      	<script type="text/javascript">
+        var runner,runner2;
+        var tid;
+        // var scrollTop;
+		
+            runner = document.getElementById('runner');
+            runner2 = document.getElementById('runner2');
+            var runner_text = document.getElementById('runner_text');
+            tid = setInterval(runText,20);
+            runner_text.onmouseover = function() {
+            	clearInterval(tid);
+            }
+            runner_text.onmouseout = function() {
+            	tid = setInterval(runText,20);
+            }
+		
+		function runText() {
+			runner_text.scrollTop++;
+			
+			if (runner_text.scrollTop >= runner2.offsetHeight - 12) {
+				runner_text.scrollTop = 0;
+			}
+		}
+	</script>
+	</div>
+</div>
+
+
+
+
+<include file="Public:foot"/>
+</body>
+</html>

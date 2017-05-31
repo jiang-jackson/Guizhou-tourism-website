@@ -1,0 +1,254 @@
+<include file="Public:header"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/message/basic-contact.css" title="Basic Contact" media="all" />
+ <style type="text/css" media="screen">
+  .mylist{
+    font-size: 14px;
+  }
+</style>
+<li class="mylist"><a href="/tpg/">旅游首页 <span class="sr-only">(current)</span></a></li>
+        <li class="mylist"><a href="/tpg/home/about/about">关于贵州</a></li>
+        <li class="mylist"><a href="/tpg/home/jingdian/jingdian">旅游景点</a></li>
+        <li class="mylist"><a href="/tpg/home/xianlu/xianlu">时尚线路</a></li>
+        <li class="mylist"><a href="/tpg/home/cate/cate">舌尖美食</a></li>
+        <li class="mylist"><a href="/tpg/home/hotels/hotel">酒店信息</a></li>
+        
+       <li class="active mylist"><a href="/tpg/Home/Message/message">留言板</a></li>
+        <li class="mylist"><a href="/tpg/admin.php">后台管理</a></li>
+      
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</div>
+  <!--nav-->
+
+  <link rel="stylesheet" href="__PUBLIC__/admin/css/amazeui.min.css" />
+
+  <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- <link href="__PUBLIC__/hotels/css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
+<link href="__PUBLIC__/hotels/css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="__PUBLIC__/hotels/css/flexslider.css" type="text/css" media="screen" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/hotels/css/JFFormStyle-1.css" />
+<!-- js -->
+<script src="__PUBLIC__/hotels/js/jquery.min.js"></script>
+<script src="__PUBLIC__/hotels/js/modernizr.custom.js"></script>
+<!-- //js -->
+
+<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true   // 100% fit in a container
+			});
+		});
+	</script>
+<!--pop-up-->
+<script src="__PUBLIC__/hotels/js/menu_jquery.js"></script>
+<!--//pop-up-->	
+<script src="__PUBLIC__/admin/js/amazeui.min.js"></script>
+
+
+
+<div class="mymessage">
+	
+  <div style="width:240px;float:right;margin-right:20px;">
+
+     <div class="comments">
+							<h3 style="color:#fff;">热门景点</h3>
+							<volist name="jingdians" id="jingdian">
+							    <div class="comments-text">
+								<div class="col-md-3 comments-left">
+									<img src="{$jingdian.jingdian_image}" alt="">
+								</div>
+								<div class="col-md-9 comments-right">
+									<h5 style="color:white;">{$jingdian.jingdian_name}</h5>
+									<a href="/tpg/home/show/showjingdian?id={$jingdian.jingdian_id}">{$jingdian.jingdian_trait}</a> 
+									<p>{$jingdian.jingdian_prith}</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							</volist>
+							
+						</div>
+  	
+  </div>
+
+
+  <div style="width:240px;float:left;margin-left:20px;">
+
+
+
+          <div class="top-destinations-grids">
+						<div class="top-destinations-info">
+							<h3>热门酒店</h3>
+						</div>
+						<div class="top-destinations-bottom">
+						<volist	name="hotelps" id="hotelp">
+						    <div class="td-grids">
+								<div class="col-xs-3 td-left">
+									<img src="{$hotelp.jiudian_image}" alt="" />
+								</div>
+								<div class="col-xs-7 td-middle">
+									<a href="/tpg/home/show/showhotel?id={$hotelp.jiudian_id}">{$hotelp.jiudian_name}</a>
+									<p>所在地区 ： {$hotelp.jiudian_site}</p>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+
+								<div class="col-xs-2 td-right">
+									<p style="font-size: 12px;">{$hotelp.jiudian_star}</p>
+								</div>
+								
+								<div class="clearfix"> </div>
+							</div>
+						</volist>
+						
+						</div>
+					</div>
+  	
+  </div>
+
+  <div id="wrap">
+	<h1>留言区</h1>
+	<div>
+		
+	</div>
+
+	<div id="sidebar">
+		<ul>
+			
+			<volist name="lists" id="message">
+			     <li><article class="am-comment" style="margin-bottom: 10px;"> <!-- 留言容器 -->
+ 
+
+       <div class="am-comment-main"> <!-- 留言内容容器 -->
+    <header class="am-comment-hd">
+      <!--<h3 class="am-comment-title">留言标题</h3>-->
+      <div class="am-comment-meta"> <!-- 留言元数据 -->
+        <a href="#link-to-user" class="am-comment-author" style="color:black;">{$message.message_fromname}({$message.message_fromemail})</a> <!-- 留言者 -->
+        
+      </div>
+    </header>
+
+    <div class="am-comment-bd">{$message.message_content}</div> <!-- 留言内容 -->
+         留言于 : <time datetime="">{$message.message_birth}</time>
+
+          </div>
+          </article></li>
+			</volist>
+			
+		</ul>
+
+
+
+<!--分页处理-->
+
+      <div>
+      	   {$page}
+      </div>
+		
+	</div>
+
+	<div id="content">
+		
+
+		<form id="contactform" action="/tpg/home/Form/messagedeal"  method="post" >
+		<p><label for="name">Name:</label><br />
+			<input type="text" name="name" id="name" size="30"  required="required" value="{$username.username}"/><span id="tishi" style="margin-left:16px;"></span></p>
+		<p><label for="email">E-mail:</label><br />
+			<input type="text" name="email" id="email" size="30"  required="required" value="{$username.email}"/></p>
+		<p style="height: 160px;position:relative;"><label for="message">Message:</label><br />
+			<textarea rows="5" cols="30" name="message" id="message"  required="required"></textarea></p>
+		<p><input type="submit" value="Submit" id="submit_button" /></p>
+		</form>
+
+	</div>
+  <script type="text/javascript">
+$("#name").bind("keyup",function(){
+	$name = $("#name").val();
+	$tishi = $("#tishi");
+	//console.log($tishi);
+	$.ajax({
+		url:"/tpg/home/Message/messageY",
+		dataType : 'json',
+		success:function(data){
+		 //console.log(data);
+			if (data==$name) {
+				$tishi.css("color","blue");
+				$tishi.html('已登录');
+			}else{
+				$tishi.css("color","red");
+               $tishi.html('未登录或未注册');
+			}
+		}
+	})
+})
+	
+</script>
+	<div id="footer">
+		
+	</div>
+</div>
+
+</div>
+
+
+
+
+
+
+   <div class="footer wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;background-color: gray;">
+  <div class="content container" style="">
+    <div class="footer-link">
+      
+      <!-- 热门自由行div.hotziyou结束 -->
+   
+    <!-- div.footer-link结束 --> 
+    <div class="Contact" >
+            <div><img src="__PUBLIC__/style/image/logo_button.jpg" alt=""></div>
+            <div>
+            服务联系<br>
+            企业电话: 0851-4567-18<br>
+            服务QQ：1591631526<br>
+            服务时间：9:00-23:30
+            </div>
+        </div><!--  div.Contact结束 -->
+        <div class="About">
+             <p>
+              <a href="/tpg/home/about/about" target="_blank">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/tpg/Home/Message/message" target="_blank">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="#" target="_blank">支付方式</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/tpg/home/login/register" target="_blank">法律声明</a></p>
+            </p>
+            <div class="fl">
+                <p>版权所有：Copyright © 影琪集团　　粤ICP备15019244号</p>
+                <p>公司地址：中国贵州贵阳市福田区南园路90号</p>
+            </div>
+        </div> <!-- div..About结束 -->
+  </div>
+  <!--  div.content结束 --> 
+</div>
+</div>
+<!-- div.footer结束 --> 
+
+
+<script defer src="__PUBLIC__/hotels/js/jquery.flexslider.js"></script>
+	<script src="__PUBLIC__/hotels/js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script src="__PUBLIC__/hotels/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/hotels/js/script.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			SyntaxHighlighter.all();
+			});
+			$(window).load(function(){
+			$('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			$('body').removeClass('loading');
+			}
+			});
+		});
+	</script>
+  </body> 
+  </html>

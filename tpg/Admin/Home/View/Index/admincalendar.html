@@ -1,0 +1,197 @@
+<include file="Public:header"/>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/fullcalendar.min.css" />
+<link rel="stylesheet" href="__PUBLIC__/admin/css/fullcalendar.print.css" media='print' />
+<div data-type="widgets">
+<!-- 内容区域 -->
+        <div class="tpl-content-wrapper">
+
+
+
+            <div class="row-content am-cf">
+                <div class="tpl-calendar-box">
+                    <div id="calendar"></div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- 弹出层 -->
+
+    <div class="am-modal am-modal-no-btn" id="calendar-edit-box">
+        <div class="am-modal-dialog tpl-model-dialog">
+            <div class="am-modal-hd">
+                <a href="javascript: void(0)" class="am-close edit-box-close am-close-spin" data-am-modal-close>&times;</a>
+            </div>
+            <div class="am-modal-bd tpl-am-model-bd am-cf">
+
+                <form class="am-form tpl-form-border-form">
+                    <div class="am-form-group am-u-sm-12">
+                        <label for="user-name" class="am-u-sm-12 am-form-label am-text-left">标题 <span class="tpl-form-line-small-title">Title</span></label>
+                        <div class="am-u-sm-12">
+                            <input type="text" class="tpl-form-input am-margin-top-xs calendar-edit-box-title" id="user-name" placeholder="" disabled>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="__PUBLIC__/admin/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/admin/js/moment.js"></script>
+    <script src="__PUBLIC__/admin/js/amazeui.min.js"></script>
+    <script src="__PUBLIC__/admin/js/fullcalendar.min.js"></script>
+    <script src="__PUBLIC__/admin/js/app.js"></script>
+    <script>
+        $(document).ready(function() {
+            var editBox = $('#calendar-edit-box');
+
+            $('.edit-box-close').on('click', function() {
+                $('#calendar').fullCalendar('unselect');
+            })
+            $('#calendar').fullCalendar({
+
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay'
+                },
+
+                monthNames: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+                monthNamesShort: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+                dayNames: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
+                dayNamesShort: ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
+                today: ["今天"],
+                firstDay: 1,
+                buttonText: {
+                    today: '本月',
+                    month: '月',
+                    week: '周',
+                    day: '日',
+                    prev: '上一月',
+                    next: '下一月'
+                },
+                defaultDate: '2017-05-09',
+                lang: 'zh-cn',
+                navLinks: true, // can click day/week names to navigate views
+                selectable: true,
+                selectHelper: true,
+                select: function(start, end) {
+                    var title = prompt('填写你的记录的:');
+                    var eventData;
+                    if (title) {
+                        eventData = {
+                            title: title,
+                            start: start,
+                            end: end
+                        };
+                        $('#calendar').fullCalendar('renderEvent', eventData, true); // stick? = true
+                    }
+                    $('#calendar').fullCalendar('unselect');
+
+
+
+                },
+                editable: true,
+                eventLimit: true, // allow "more" link when too many events
+                eventClick: function(event, jsEvent, view) {
+
+                    // event.source.events[0].title = '222223333'
+                    // 修改数据
+                    // 标题
+                    $('.calendar-edit-box-title').val(event.title)
+
+
+
+                    //  弹出框
+                    editBox.modal();
+
+
+
+
+
+                },
+                events: [{
+                    id: 1,
+                     title: '链接数据库',
+                    start: '2017-04-20',
+                    end: '2017-04-20'
+                }, {
+                    id: 2,
+                     title: '向数据库添加景点',
+                    start: '2017-04-21',
+                    end: '2017-04-21'
+                }, {
+                    id: 3,
+                  title: '向数据库添加美食',
+                    start: '2017-04-22',
+                    end: '2017-04-22'
+                }, {
+                    id: 4,
+                   title: '向数据库添加酒店',
+                    start: '2017-04-23',
+                    end: '2017-04-23'
+                }, {
+                    id: 5,
+                     title: '向数据库添加线路',
+                    start: '2017-04-24',
+                    end: '2017-04-24'
+                }, {
+                    id: 6,
+                      title: '用户对景点评论的处理',
+                    start: '2017-04-26',
+                    end: '2017-04-26'
+                }, {
+                    id: 7,
+                      title: '用户留言处理',
+                    start: '2017-04-29',
+                    end: '2017-04-29'
+                }, {
+                    id: 8,
+                     title: '删除错误数据',
+                    start: '2017-05-01',
+                    end: '2017-05-01'
+                }, {
+                    id: 9,
+                     title: '图片列表的检索实现',
+                    start: '2017-05-03',
+                    end: '2017-05-03'
+                }, {
+                    id: 10,
+                    title: '改进网站系统，提高用户体验',
+                    start: '2017-05-05',
+                    end: '2017-05-05'
+                }, {
+                    id: 11,
+                    title: '兼容不同的浏览器',
+                    start: '2017-05-06',
+                    end: '2017-05-06'
+                }, {
+                    id: 12,
+                    title: '网站整体调试',
+                    start: '2017-05-09',
+                    end: '2017-05-09'
+                }]
+            });
+
+        });
+    </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+/*
+Original design: Basic Contact (v1.2 - Sep 11, 2012) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://www.cssmoban.com/templates/basic-contact/
+*/
+
+.mymessage{margin-top:180px;background:#1a1a1a url(background.jpg) top center no-repeat; font:90% Georgia,Times New Roman,serif; color:#ddd; line-height:1.6em;}
+#wrap a {color:#ddd; text-decoration:none; border-bottom:1px dotted #777;}
+ #wrap a:hover {color:#fff;}
+#wrap h1{font-size:3.6em;font-weight:400;letter-spacing:-1px;}
+ #wrap h2{font-size:1.8em;font-weight:400;letter-spacing:-1px;}
+#wrap{width:720px; padding:20px;margin:0 auto;}
+#wrap #sidebar {margin:10px 0 30px 0;width:300px;float:left;}
+#wrap #content{margin:30px 0 30px 340px;width:360px;height:660px;}
+#wrap #footer {clear:both;padding:5px 0;color:#555;text-align:center;border-top:1px solid #333;}
+ #wrap #footer a {color:#555;}
+
+#contactform p{
+	margin-top: 10px;
+}
+#contactform input {width:220px;background-color:#222;color:#eee;border:1px solid #555;padding:5px;}
+#contactform #message {width:350px;background-color:#222;color:#eee;border:1px solid #555;padding:5px;position:absolute;top:30px;}
+
+/*留言区*/
+
+#sidebar ul li .am-comment{
+    margin-left: -60px;
+}
+
+/*分页处理*/
+.num,.next,.prev{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: black;
+	text-align: center;
+}
+.current{
+	display: inline-block;
+	background-color: gray;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+
+	text-align: center;
+}

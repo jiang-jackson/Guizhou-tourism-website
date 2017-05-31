@@ -1,0 +1,66 @@
+[ 2017-05-12T08:28:47+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-12T08:29:02+08:00 ] 127.0.0.1 /tpg/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-12T08:29:04+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-12T08:30:09+08:00 ] 127.0.0.1 /tpg/Public/cate/js/cufon-replace.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-12T08:30:09+08:00 ] 127.0.0.1 /tpg/Public/cate/js/cufon-replace.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-12T08:32:08+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001709s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-12T08:33:07+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-12T08:33:07+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-12T08:33:36+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002141s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-12T08:33:36+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-12T08:34:55+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+ERR: 无法加载模块:Worker
+

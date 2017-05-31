@@ -1,0 +1,107 @@
+<include file="Public:header"/>
+<style type="text/css" media="screen">
+/*分页按钮样式*/
+	.current{
+		display: inline-block;
+		color: red;
+		width:32px;
+		height: 32px;
+		line-height: 32px;
+		text-align: center;
+		cursor: pointer;
+		background-color: #fff;
+	}
+</style>
+<div data-type="widgets">
+
+
+ <!-- 内容区域 -->
+        <div class="tpl-content-wrapper">
+            <div class="row-content am-cf">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title  am-cf">文字列表</div>
+
+
+                            </div>
+                            <div class="widget-body  am-fr">
+
+                                <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+                                    <div class="am-form-group">
+                                        <div class="am-btn-toolbar">
+                                            <div class="am-btn-group am-btn-group-xs">
+                                               <button type="button" class="am-btn am-btn-default am-btn-success"> <a href="/tpg/admin.php/home/index/adminform" title=""><span class="am-icon-plus"></span> 新增</a></button>
+                                                <button type="button" class="am-btn am-btn-default am-btn-secondary"><span class="am-icon-save"></span> 保存</button>
+                                                <button type="button" class="am-btn am-btn-default am-btn-warning"><span class="am-icon-archive"></span> 审核</button>
+                                                <button type="button" class="am-btn am-btn-default am-btn-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6 am-u-lg-3">
+                                    
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-12 am-u-lg-3">
+                                    
+                                </div>
+
+                                <div class="am-u-sm-12">
+                                    <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+                                        <thead>
+                                            <tr>
+                                                <th>编号</th>
+                                                <th>景点名称</th>
+                                                <th>景点介绍</th>
+                                                <th>所在地</th>
+                                                <th>价格</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <volist name="list" id="one">
+                                        <tr class="gradeX">
+                                                <td>{$one.jingdian_id}</td>
+                                                <td>{$one.jingdian_name}</td>
+                                                <td>{$one.jingdian_content}</td>
+                                                <td>{$one.jingdian_site}</td>
+                                                <td>{$one.jingdian_price}</td>
+                                               
+                                            </tr>
+                                        </volist>	
+                                            
+                                           
+                                            <!-- more data -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="am-u-lg-12 am-cf">
+
+                                    <div class="am-fr">
+                                        <ul class="am-pagination tpl-pagination">
+                                           
+                                            
+                                                <li>{$page}</li>
+                                            
+                                            
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="__PUBLIC__/admin/js/amazeui.min.js"></script>
+    <script src="__PUBLIC__/admin/js/amazeui.datatables.min.js"></script>
+    <script src="__PUBLIC__/admin/js/dataTables.responsive.min.js"></script>
+    <script src="__PUBLIC__/admin/js/app.js"></script>
+</div>
+</body>
+
+</html>

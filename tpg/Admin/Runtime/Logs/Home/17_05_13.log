@@ -1,0 +1,319 @@
+[ 2017-05-13T12:08:41+08:00 ] 127.0.0.1 /tpg/admin.php/home/adminform/indexdeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `travel_adminuers` [ RunTime:0.0564s ]
+SQL: SELECT * FROM `travel_adminuers` WHERE ( adminemail='' ) LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `travel_adminuers`  [ RunTime:0.0077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030219s ]
+
+[ 2017-05-13T12:21:45+08:00 ] 127.0.0.1 /tpg/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2017-05-13T12:22:22+08:00 ] 127.0.0.1 /tpg/admin.php/home/adminform/indexdeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `travel_adminuers` [ RunTime:0.0324s ]
+SQL: SELECT * FROM `travel_adminuers` WHERE ( adminemail='1591631526@qq.com' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_adminuers`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2017-05-13T12:22:23+08:00 ] 127.0.0.1 /tpg/admin.php/home/adminform/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-05-13T12:22:27+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/admintablelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `travel_jingdian` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001610s ]
+
+[ 2017-05-13T12:22:28+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+
+[ 2017-05-13T12:22:36+08:00 ] 127.0.0.1 /tpg/admin.php/Home/Index/admintablelist/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `travel_jingdian` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 10,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002582s ]
+
+[ 2017-05-13T12:22:36+08:00 ] 127.0.0.1 /tpg/admin.php/Home/Index/admintablelist/p/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-05-13T12:23:15+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/adminform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2017-05-13T12:27:22+08:00 ] 127.0.0.1 /tpg/admin.php/home/adminform/indexdeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `travel_adminuers` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `travel_adminuers` WHERE ( adminemail='1591631526@qq.com' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_adminuers`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2017-05-13T12:28:05+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/admintables
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `travel_jingdian`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `travel_users` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `travel_users`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_meishi` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `travel_meishi`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `travel_xianlu`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `travel_jiudian` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `travel_jiudian`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_pinglun` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `travel_pinglun`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='6' ) LIMIT 1   [ RunTime:0.0175s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='10' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='24' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='24' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel_message` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `travel_message`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2017-05-13T12:29:21+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/admincalendar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2017-05-13T12:34:02+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/adminform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002994s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003029s ]
+
+[ 2017-05-13T12:38:52+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/admincalendar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002819s ]
+
+[ 2017-05-13T12:39:05+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/admintables
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `travel_jingdian`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `travel_users` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `travel_users`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_meishi` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `travel_meishi`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `travel_xianlu`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `travel_jiudian` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `travel_jiudian`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `travel_pinglun` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `travel_pinglun`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='6' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='10' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel_jingdian` WHERE ( jingdian_id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel_message` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `travel_message`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007941s ]
+
+[ 2017-05-13T12:39:10+08:00 ] 127.0.0.1 /tpg/admin.php/home/index/admincalendar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002999s ]
+

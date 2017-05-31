@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>贵州旅游网站管理员注册</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/amazeui.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/amazeui.datatables.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/app.css">
+    <script src="__PUBLIC__/admin/js/jquery.min.js"></script>
+
+</head>
+
+<body data-type="login">
+    <script src="__PUBLIC__/admin/js/theme.js"></script>
+    <div class="am-g tpl-g">
+        <!-- 风格切换 -->
+        <div class="tpl-skiner">
+            <div class="tpl-skiner-toggle am-icon-cog">
+            </div>
+            <div class="tpl-skiner-content">
+                <div class="tpl-skiner-content-title">
+                    选择主题
+                </div>
+                <div class="tpl-skiner-content-bar">
+                    <span class="skiner-color skiner-white" data-color="theme-white"></span>
+                    <span class="skiner-color skiner-black" data-color="theme-black"></span>
+                </div>
+            </div>
+        </div>
+        <div class="tpl-login">
+            <div class="tpl-login-content">
+                <div class="tpl-login-title">注册用户</div>
+                <span class="tpl-login-content-info">
+                  创建一个新的管理员
+              </span>
+
+
+                <form class="am-form tpl-form-line-form" action="/tpg/admin.php/home/adminform/adminzhucedeal" method="post">
+                    <div class="am-form-group">
+                        <input type="email" class="tpl-form-input" id="user-email" placeholder="邮箱" name="adminemail" required>
+
+
+                    </div>
+
+                    <div class="am-form-group">
+                        <input type="password" class="tpl-form-input" id="adminpassword" placeholder="请输入密码" name="adminpassword" pattern="^[a-zA-Z]\w{5,17}$" required>
+                    </div>
+
+                    <div class="am-form-group">
+                        <input type="password" class="tpl-form-input" id="confirepassword" placeholder="再次输入密码" name="confirepassword" required>
+                        <span id="yzpas" style="float:right;position:relative;top:-28px;"></span>
+                    </div>
+                    <script type="text/javascript">
+                    // 使用异步加载请求 验证两次输入的密码是否一样
+
+                    //$.ajax({
+                     //       url : '/tpg/admin.php/home/adminform/adminajax',
+                         //   type:'post',
+                          //  dataType:'json',
+                           // success : function(data){
+                            //    console.log(data);
+                           // }
+                        //})  
+                    $("#confirepassword").bind("keyup",function(){
+                         $conpas = $("#confirepassword").val();
+                         $admpas = $("#adminpassword").val();
+                         $c = $("#confirepassword");
+                         if($conpas == $admpas){
+                            //$c.css("backgroundColor","green");
+                            $("#yzpas").html("✔");
+                            $("#yzpas").css("color",'blue');
+
+                         }else{
+                            //console.log(0);
+                            $("#yzpas").html("两次密码不一样");
+                            $("#yzpas").css("color",'red');
+                         }
+                    })
+                     
+
+                    </script>
+
+                    <div class="am-form-group tpl-login-remember-me">
+                        <input id="remember-me" type="checkbox" name="remember-me" value="1">
+                        <label for="remember-me">
+       
+                        我已阅读并同意 <a href="javascript:;">《管理员注册协议》</a> 
+                         </label>
+
+                    </div>
+
+
+
+
+
+
+                    <div class="am-form-group">
+
+                        <button type="submit" class="am-btn am-btn-primary  am-btn-block tpl-btn-bg-color-success  tpl-login-btn">提交</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="__PUBLIC__/admin/js/amazeui.min.js"></script>
+    <script src="__PUBLIC__/admin/js/app.js"></script>
+
+</body>
+
+</html>

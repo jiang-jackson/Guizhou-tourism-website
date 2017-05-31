@@ -1,0 +1,265 @@
+<include file="Public:header"/>
+
+ </li>
+        <li ><a href="/tpg/">旅游首页 <span class="sr-only">(current)</span></a></li>
+        <li ><a href="/tpg/home/about/about">关于贵州</a></li>
+        <li><a href="/tpg/home/jingdian/jingdian">旅游景点</a></li>
+        <li><a href="/tpg/home/xianlu/xianlu">时尚线路</a></li>
+        <li   class="active"><a href="/tpg/home/cate/cate">舌尖美食</a></li>
+        <li><a href="/tpg/home/hotels/hotel">酒店信息</a></li>
+        
+        <li><a href="/tpg/Home/Message/message">留言板</a></li>
+        <li><a href="/tpg/admin.php">后台管理</a></li>
+      
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</div>
+  <!--nav-->
+
+
+  <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- <link href="__PUBLIC__/hotels/css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
+<link href="__PUBLIC__/hotels/css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="__PUBLIC__/hotels/css/flexslider.css" type="text/css" media="screen" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/hotels/css/JFFormStyle-1.css" />
+<!-- js -->
+<script src="__PUBLIC__/hotels/js/jquery.min.js"></script>
+<script src="__PUBLIC__/hotels/js/modernizr.custom.js"></script>
+<!-- //js -->
+
+<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true   // 100% fit in a container
+			});
+		});
+	</script>
+<!--pop-up-->
+<script src="__PUBLIC__/hotels/js/menu_jquery.js"></script>
+<!--//pop-up-->	
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<!-- container -->
+		<div class="container">
+			<div class="about-info">
+				<h2>贵州美食</h2>
+			</div>
+			<div class="faqs-top-grids">
+				<div class="blog-grids">
+					<div class="col-md-8 blog-left">
+						<div class="blog-left-grid">
+							<p>地区 : <a href="#">{$cate.meishi_site}</a> &nbsp;&nbsp; on {$cate.birth} &nbsp;&nbsp; 价格 : <a href="#"> {$cate.meishi_price}</a></p>
+							<a href="#"><img src="{$cate.meishi_image}" alt=""></a>
+							<div class="blog-left-right">
+								<a href="#">{$cate.meishi_name}</a>
+								<p>{$cate.meishi_content}
+								</p>
+							</div>
+						</div>
+						<!--<div class="blog-left-grid">
+							<p>Posted By <a href="#">Admin</a> &nbsp;&nbsp; on June 2, 2015 &nbsp;&nbsp; <a href="#">Comments (10)</a></p>
+							<a href="single.html"><img src="images/banner.jpg" alt=""></a>
+							<div class="blog-left-right">
+								<a href="single.html">Phasellus ultrices tellus eget ipsum ornare molestie </a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed blandit massa vel mauris sollicitudin 
+									dignissim. Phasellus ultrices tellus eget ipsum ornare molestie scelerisque eros dignissim. Phasellus 
+									fringilla hendrerit lectus nec vehicula. ultrices tellus eget ipsum ornare consectetur adipiscing elit.Sed blandit .
+									estibulum aliquam neque nibh, sed accumsan nulla ornare sit amet. 
+								</p>
+							</div>
+						</div>
+						<div class="blog-left-grid">
+							<p>Posted By <a href="#">Admin</a> &nbsp;&nbsp; on June 2, 2015 &nbsp;&nbsp; <a href="#">Comments (10)</a></p>
+							<a href="single.html"><img src="images/banner1.jpg" alt=""></a>
+							<div class="blog-left-right">
+								<a href="single.html">Phasellus ultrices tellus eget ipsum ornare molestie </a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed blandit massa vel mauris sollicitudin 
+									dignissim. Phasellus ultrices tellus eget ipsum ornare molestie scelerisque eros dignissim. Phasellus 
+									fringilla hendrerit lectus nec vehicula. ultrices tellus eget ipsum ornare consectetur adipiscing elit.Sed blandit .
+									estibulum aliquam neque nibh, sed accumsan nulla ornare sit amet. 
+								</p>
+							</div>
+						</div>-->
+						
+					</div>
+					<div class="col-md-4 blog-right">
+						<div class="Categories">
+							<h3>酒店推荐</h3>
+							<ul>
+							<volist name="hotels" id="hotel">
+							   <li><a href="/tpg/home/show/showhotel?id={$hotel.jiudian_id}">{$hotel.jiudian_name}</a></li>
+							</volist>
+								<!--<li><a href="#">Phasellus sem leo, interdum quis risus</a></li>
+								<li><a href="#">Nullam egestas nisi id malesuada aliquet </a></li>
+								<li><a href="#"> Donec condimentum purus urna venenatis</a></li>
+								<li><a href="#">Ut congue, nisl id tincidunt lobor mollis</a></li>
+								<li><a href="#">Cum sociis natoque penatibus et magnis</a></li>
+								<li><a href="#">Suspendisse nec magna id ex pretium</a></li>-->
+							</ul>
+						</div>
+						<div class="Categories">
+							<h3>线路精选</h3>
+							<ul class="marked-list offs1">
+							<volist name="xianlus" id="xianlu">
+							   <li><a href="/tpg/home/show/showxianlu?id={$xianlu.xianlu_id}">{$xianlu.xianlu_name}</a></li>
+							</volist>
+								<!--<li><a href="#">May 2015 (7)</a></li>
+								<li><a href="#">April 2015 (11)</a></li>
+								<li><a href="#">March 2015 (12)</a></li>
+								<li><a href="#">February 2015 (14)</a> </li>
+								<li><a href="#">January 2015 (10)</a></li>    
+								<li><a href="#">December 2014 (12)</a></li>
+								<li><a href="#">November 2014 (8)</a></li>
+								<li><a href="#">October 2014 (7)</a> </li>
+								<li><a href="#">September 2014 (8)</a></li>
+								<li><a href="#">August 2014 (6)</a></li>  -->                        
+							</ul>
+						</div>
+						<div class="comments">
+							<h3>热门景点</h3>
+							<volist name="jingdians" id="jingdian">
+							    <div class="comments-text">
+								<div class="col-md-3 comments-left">
+									<img src="{$jingdian.jingdian_image}" alt="">
+								</div>
+								<div class="col-md-9 comments-right">
+									<h5>{$jingdian.jingdian_name}</h5>
+									<a href="/tpg/home/show/showjingdian?id={$jingdian.jingdian_id}">{$jingdian.jingdian_trait}</a> 
+									<p>{$jingdian.jingdian_prith}</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							</volist>
+							<!--<div class="comments-text">
+								<div class="col-md-3 comments-left">
+									<img src="images/user1.jpg" alt="">
+								</div>
+								<div class="col-md-9 comments-right">
+									<h5>{}</h5>
+									<a href="#">Phasellus sem leointerdum risus</a> 
+									<p>March 16,2014 6:09:pm</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="comments-text">
+								<div class="col-md-3 comments-left">
+									<img src="images/user2.jpg" alt="">
+								</div>
+								<div class="col-md-9 comments-right">
+									<h5>Admin</h5>
+									<a href="#">Phasellus sem leointerdum risus</a> 
+									<p>March 16,2014 6:09:pm</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="comments-text">
+								<div class="col-md-3 comments-left">
+									<img src="images/user3.jpg" alt="">
+								</div>
+								<div class="col-md-9 comments-right">
+									<h5>Admin</h5>
+									<a href="#">Phasellus sem leointerdum risus</a> 
+									<p>March 16,2014 6:09:pm</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>-->
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //banner-bottom -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script defer src="__PUBLIC__/hotels/js/jquery.flexslider.js"></script>
+  <script src="__PUBLIC__/hotels/js/easyResponsiveTabs.js" type="text/javascript"></script>
+  <script src="__PUBLIC__/hotels/js/jquery-ui.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/hotels/js/script.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+      });
+      $(window).load(function(){
+      $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+      $('body').removeClass('loading');
+      }
+      });
+    });
+  </script>
+
+  <div class="footer wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;background-color: gray;">
+  <div class="content container" style="">
+    <div class="footer-link">
+      
+      <!-- 热门自由行div.hotziyou结束 -->
+   
+    <!-- div.footer-link结束 --> 
+    <div class="Contact" >
+            <div><img src="__PUBLIC__/style/image/logo_button.jpg" alt=""></div>
+            <div>
+            服务联系<br>
+            企业电话: 0851-4567-18<br>
+            服务QQ：1591631526<br>
+            服务时间：9:00-23:30
+            </div>
+        </div><!--  div.Contact结束 -->
+        <div class="About">
+             <p>
+              <a href="/tpg/home/about/about" target="_blank">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/tpg/Home/Message/message" target="_blank">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="#" target="_blank">支付方式</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/tpg/home/login/register" target="_blank">法律声明</a></p>
+            </p>
+            <div class="fl">
+                <p>版权所有：Copyright © 影琪集团　　粤ICP备15019244号</p>
+                <p>公司地址：中国贵州贵阳市福田区南园路90号</p>
+            </div>
+        </div> <!-- div..About结束 -->
+  </div>
+  <!--  div.content结束 --> 
+</div>
+</div>
+<!-- div.footer结束 --> 
+  </body> 
+  </html>

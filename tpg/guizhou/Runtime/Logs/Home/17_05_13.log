@@ -1,0 +1,874 @@
+[ 2017-05-13T12:08:30+08:00 ] 127.0.0.1 /tpg/home/login/rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.703974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.569220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.569310s ]
+NOTIC: [8] Use of undefined constant a - assumed 'a' C:\xampp\htdocs\tpg\guizhou\Home\Controller\LoginController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant z - assumed 'z' C:\xampp\htdocs\tpg\guizhou\Home\Controller\LoginController.class.php 第 18 行.
+
+[ 2017-05-13T12:09:08+08:00 ] 127.0.0.1 /tpg/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.1493s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 0,8   [ RunTime:0.0265s ]
+SQL: SELECT * FROM `travel_jingdian` ORDER BY jingdian_id desc LIMIT 8   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id LIMIT 8   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 10,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 622 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 622 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 622 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 622 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 622 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 622 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 622 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 622 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 648 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 652 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 648 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 652 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 648 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 652 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 648 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 652 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 648 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 652 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 648 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 652 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 648 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 652 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 648 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 652 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 915 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 915 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 915 行.
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\c1d0c4ca6eb9ae2ad55359290868129b.php 第 915 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.311754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.311813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.061176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.061234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2017-05-13T12:14:09+08:00 ] 127.0.0.1 /tpg/home/hotels/hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+SQL: SHOW COLUMNS FROM `travel_jiudian` [ RunTime:0.1118s ]
+SQL: SELECT * FROM `travel_jiudian`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `travel_jiudian` ORDER BY jiudian_id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel_meishi` [ RunTime:0.0838s ]
+SQL: SELECT * FROM `travel_meishi` LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2017-05-13T12:14:09+08:00 ] 127.0.0.1 /tpg/home/hotels/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:14:09+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004455s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T12:14:09+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T12:15:05+08:00 ] 127.0.0.1 /tpg/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003955s ]
+
+[ 2017-05-13T12:15:32+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T12:15:32+08:00 ] 127.0.0.1 /tpg/home/hotels/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002661s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:15:32+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T12:15:35+08:00 ] 127.0.0.1 /tpg/home/login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2017-05-13T12:15:35+08:00 ] 127.0.0.1 /tpg/home/login/rand
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+NOTIC: [8] Use of undefined constant a - assumed 'a' C:\xampp\htdocs\tpg\guizhou\Home\Controller\LoginController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant z - assumed 'z' C:\xampp\htdocs\tpg\guizhou\Home\Controller\LoginController.class.php 第 18 行.
+
+[ 2017-05-13T12:15:46+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T12:15:46+08:00 ] 127.0.0.1 /tpg/home/hotels/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007950s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:15:47+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T12:15:48+08:00 ] 127.0.0.1 /tpg/home/cate/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `travel_meishi` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `travel_meishi` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `travel_meishi` LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000491s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005655s ]
+
+[ 2017-05-13T12:15:48+08:00 ] 127.0.0.1 /tpg/home/cate/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:17:53+08:00 ] 127.0.0.1 /tpg/home/xianlu/xianlu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 5,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_xianlu` LIMIT 6,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_xianlu` LIMIT 3,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002984s ]
+
+[ 2017-05-13T12:17:54+08:00 ] 127.0.0.1 /tpg/home/xianlu/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:17:54+08:00 ] 127.0.0.1 /tpg/home/style/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002719s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:17:54+08:00 ] 127.0.0.1 /tpg/home/xianlu/style/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:style
+
+[ 2017-05-13T12:17:54+08:00 ] 127.0.0.1 /tpg/home/style/js/foot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003715s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:17:54+08:00 ] 127.0.0.1 /tpg/home/style/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002923s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:17:54+08:00 ] 127.0.0.1 /tpg/home/xianlu/style/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+ERR: 非法操作:style
+
+[ 2017-05-13T12:17:54+08:00 ] 127.0.0.1 /tpg/home/style/js/foot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:19:02+08:00 ] 127.0.0.1 /tpg/home/xianlu/xianlu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 5,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `travel_xianlu` LIMIT 6,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_xianlu` LIMIT 3,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001873s ]
+
+[ 2017-05-13T12:19:02+08:00 ] 127.0.0.1 /tpg/home/xianlu/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:19:02+08:00 ] 127.0.0.1 /tpg/home/style/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:19:02+08:00 ] 127.0.0.1 /tpg/home/xianlu/style/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+ERR: 非法操作:style
+
+[ 2017-05-13T12:19:02+08:00 ] 127.0.0.1 /tpg/home/style/js/foot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:19:02+08:00 ] 127.0.0.1 /tpg/home/style/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005375s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:19:02+08:00 ] 127.0.0.1 /tpg/home/xianlu/style/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+ERR: 非法操作:style
+
+[ 2017-05-13T12:19:02+08:00 ] 127.0.0.1 /tpg/home/style/js/foot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:19:19+08:00 ] 127.0.0.1 /tpg/home/about/about
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.253252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.253342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-05-13T12:19:19+08:00 ] 127.0.0.1 /tpg/home/about/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:19:20+08:00 ] 127.0.0.1 /tpg/home/about/img/bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+
+[ 2017-05-13T12:19:20+08:00 ] 127.0.0.1 /tpg/home/about/img/bg-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+
+[ 2017-05-13T12:19:20+08:00 ] 127.0.0.1 /tpg/home/about/img/bg-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-05-13T12:20:28+08:00 ] 127.0.0.1 /tpg/Home/Message/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003155s ]
+SQL: SHOW COLUMNS FROM `travel_jiudian` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `travel_jiudian` ORDER BY jiudian_id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `travel_jingdian` ORDER BY jingdian_id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_message` [ RunTime:0.0390s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `travel_message` LIMIT 1   [ RunTime:0.3263s ]
+SQL: SELECT * FROM `travel_message` ORDER BY message_id desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002053s ]
+
+[ 2017-05-13T12:20:30+08:00 ] 127.0.0.1 /tpg/home/about/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:20:34+08:00 ] 127.0.0.1 /tpg/home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2017-05-13T12:20:50+08:00 ] 127.0.0.1 /tpg/home/Form/logindeal
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `travel_users` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `travel_users` WHERE ( username='江' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2017-05-13T12:20:50+08:00 ] 127.0.0.1 /tpg/Home/Message/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `travel_jiudian` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `travel_jiudian` ORDER BY jiudian_id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `travel_jingdian` ORDER BY jingdian_id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_message` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `travel_message` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_message` ORDER BY message_id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: jingdian_prith C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\58037baf6b27ed6cb88c83268fd44811.php 第 468 行.
+NOTIC: [8] Undefined index: jingdian_prith C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\58037baf6b27ed6cb88c83268fd44811.php 第 468 行.
+NOTIC: [8] Undefined index: jingdian_prith C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\58037baf6b27ed6cb88c83268fd44811.php 第 468 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2017-05-13T12:20:50+08:00 ] 127.0.0.1 /tpg/Home/Message/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:25:00+08:00 ] 127.0.0.1 /tpg/Home/Message/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003454s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:25:03+08:00 ] 127.0.0.1 /tpg/home/xianlu/xianlu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 5,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_xianlu` LIMIT 6,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel_xianlu` LIMIT 3,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003216s ]
+
+[ 2017-05-13T12:25:03+08:00 ] 127.0.0.1 /tpg/home/xianlu/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:25:03+08:00 ] 127.0.0.1 /tpg/home/style/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003557s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:25:03+08:00 ] 127.0.0.1 /tpg/home/style/js/foot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:25:03+08:00 ] 127.0.0.1 /tpg/home/xianlu/style/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+ERR: 非法操作:style
+
+[ 2017-05-13T12:25:03+08:00 ] 127.0.0.1 /tpg/home/style/js/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:25:03+08:00 ] 127.0.0.1 /tpg/home/xianlu/style/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+ERR: 非法操作:style
+
+[ 2017-05-13T12:25:03+08:00 ] 127.0.0.1 /tpg/home/style/js/foot.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载控制器:Style
+
+[ 2017-05-13T12:25:04+08:00 ] 127.0.0.1 /tpg/home/jingdian/jingdian
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `travel_jingdian`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `travel_jingdian` ORDER BY jingdian_id desc LIMIT 4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 10,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `travel_xianlu` LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_meishi` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `travel_meishi` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Use of undefined constant jingdian_id - assumed 'jingdian_id' C:\xampp\htdocs\tpg\guizhou\Runtime\Cache\Home\0523df22f4985f294764cf7aa528654c.php 第 451 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2017-05-13T12:25:04+08:00 ] 127.0.0.1 /tpg/home/jingdian/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:30:25+08:00 ] 127.0.0.1 /tpg/home/hotels/hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `travel_jiudian` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `travel_jiudian`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_jiudian` ORDER BY jiudian_id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel_meishi` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `travel_meishi` LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003721s ]
+
+[ 2017-05-13T12:30:25+08:00 ] 127.0.0.1 /tpg/home/hotels/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005745s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T12:30:25+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003539s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T12:30:25+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T15:28:54+08:00 ] 127.0.0.1 /tpg/home/hotels/hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000463s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017837s ]
+SQL: SHOW COLUMNS FROM `travel_jiudian` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `travel_jiudian`  [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 5   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 0,5   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `travel_jiudian` ORDER BY jiudian_id desc  [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `travel_meishi` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `travel_meishi` LIMIT 3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.062145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.062232s ]
+
+[ 2017-05-13T15:28:54+08:00 ] 127.0.0.1 /tpg/home/hotels/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T15:28:55+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000209s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005029s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T15:36:57+08:00 ] 127.0.0.1 /tpg/home/hotels/hotel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `travel_jiudian` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `travel_jiudian`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `travel_jingdian` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `travel_jingdian` LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `travel_xianlu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `travel_xianlu` ORDER BY xianlu_id desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel_jiudian` ORDER BY jiudian_id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel_meishi` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `travel_meishi` LIMIT 3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005051s ]
+
+[ 2017-05-13T15:36:57+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002858s ]
+ERR: 非法操作:css
+
+[ 2017-05-13T15:36:57+08:00 ] 127.0.0.1 /tpg/home/hotels/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002685s ]
+ERR: 非法操作:worker.appcache
+
+[ 2017-05-13T15:36:58+08:00 ] 127.0.0.1 /tpg/home/hotels/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+ERR: 非法操作:css
+

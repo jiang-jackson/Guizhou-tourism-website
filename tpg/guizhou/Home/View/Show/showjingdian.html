@@ -1,0 +1,131 @@
+<include file="Public:header"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/show/css/style.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/show/assets/css/amazeui.min.css">
+<script src="__PUBLIC__/show/assets/js/amazeui.min.js"></script>
+<li ><a href="/tpg/">旅游首页 <span class="sr-only">(current)</span></a></li>
+        <li ><a href="/tpg/home/about/about">关于贵州</a></li>
+        <li><a href="/tpg/home/jingdian/jingdian">旅游景点</a></li>
+        <li class="active"><a href="/tpg/home/xianlu/xianlu">时尚线路</a></li>
+        <li><a href="/tpg/home/cate/cate">舌尖美食</a></li>
+        <li><a href="/tpg/home/hotels/hotel">酒店信息</a></li>
+        
+       <li><a href="/tpg/Home/Message/message">留言板</a></li>
+        <li><a href="/tpg/admin.php">后台管理</a></li>
+      
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</div>
+  <!--nav-->
+<!-- <div class="mydiv"> -->
+  <div class="background" style="height: 100%;">
+		<div class="page" >
+			<div class="logo" style="margin-top: 10px;">
+				<span> <a href="/tpg/home/about/about"><img src="__PUBLIC__/show/images/logo.png" alt=""></a> </span>
+			</div>
+			<div class="sidebar">
+				<ul>
+					<li >
+						<a href="/tpg/">首页</a>
+					</li>
+					<li>
+						<a href="/tpg/home/jingdian/jingdian">旅游景点</a>
+					</li>
+					<li>
+						<a href="/tpg/home/login/tuichu">退出</a>
+					</li>
+
+				</ul>
+				<div class="connect">
+					<a href="#" id="facebook">facebook</a> <a href="#" id="twitter">twitter</a> <a href="#" id="googleplus">googleplus</a>
+				</div>
+				
+			</div>
+			<div class="body">
+				<ul>
+					<li class="first">
+						<h3><a href="/tpg/home/show/more?name=jingdian">{$jingdians.jingdian_name}</a></h3>
+						<span style="font-size: 18px;">所在地区 ：{$jingdians.jingdian_site}</span> 
+						<span style="font-size: 16px;">门票 ：<strong style="color:red;">{$jingdians.jingdian_price}</strong></span> 
+						<span style="font-size: 18px;"><strong style="color: #00ffff;">景点特色 </strong>：{$jingdians.jingdian_trait}</span> 
+						<a href="/tpg/home/show/more?name=jingdian"><img src="{$jingdians.jingdian_image}" alt="" width="760" height='400'></a>
+						<p>
+							{$jingdians.jingdian_name} ：{$jingdians.jingdian_content}
+						</p>
+					</li>
+					<li class="second">
+						
+						<h3 style="margin-left: 20px;"><a href="#">评论列表</a></h3>
+						
+						<p>
+						<volist name="pingluns" id="pinglun" empty="暂无评论">
+
+						        <article class="am-comment"> <!-- 评论容器 -->
+  <!-- <a href="">
+    <img class="am-comment-avatar" alt=""/> <!-- 评论者头像 -->
+  <!-- </a> -->
+
+  <div class="am-comment-main" style="margin-left: 1px;margin-top: 10px;"> <!-- 评论内容容器 -->
+    <header class="am-comment-hd" style="background-color: blue; color: black;">
+      <!--<h3 class="am-comment-title">评论标题</h3>-->
+      <div class="am-comment-meta"> <!-- 评论元数据 -->
+        <a href="#link-to-user" class="am-comment-author" style="color: red;">{$pinglun.username}</a> <!-- 评论者 -->
+        评论于 <time datetime="">{$pinglun.pinglun_birth}</time>
+      </div>
+    </header>
+
+    <div class="am-comment-bd" style="background-color: #fff;">{$pinglun.pinglun_content}</div> <!-- 评论内容 -->
+  </div>
+</article>
+						</volist>
+							
+						</p>
+
+						<!-- 评论 -->
+						<form action="/tpg/home/show/pinglundeal" class="am-form" id="doc-vld-msg" method="post">
+  
+    <div class="am-form-group">
+      <label for="doc-vld-ta-2-1">评论：</label>
+      <textarea id="doc-vld-ta-2-1" rows="5" cols="10" required name="content"></textarea>
+      <span id="ajaxspan" style="color: red;"></span>
+    </div>
+
+    <button class="am-btn am-btn-secondary" type="submit">提交</button>
+  
+</form>
+<script type="text/javascript">
+$("textarea").bind("keyup",function(){
+	// $val = $("#doc-vld-ta-2-1").val();
+	// console.log($val);
+	$.ajax({
+		url:"/tpg/home/show/pinglunajax",
+		dataType : 'json',
+		success:function(data){
+			// console.log(data);
+			if (data == 1) {
+				$('#ajaxspan').html('');
+			}else{
+				$('#ajaxspan').html('只有登录后才能评论');
+			}
+		}
+	})
+})
+	
+</script>
+					</li>
+					<li class="third">
+						<h3><a href="blog.html">推荐景点</a></h3>
+						<a href="" ><img src="{$tuijian.jingdian_image}" alt="" width="340" height="220"></a> <span>添加时间 : {$tuijian.jingdian_birth}</span>
+						<p style="clear: both;">
+							{$tuijian.jingdian_name} : {$tuijian.jingdian_content}
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- </div> -->
+	<include file="Public:foot"/>
+</body>
+</html>

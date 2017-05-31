@@ -1,0 +1,294 @@
+[ 2017-05-08T15:23:08+08:00 ] 127.0.0.1 /tpg/Public/cate/js/cufon-replace.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:24:04+08:00 ] 127.0.0.1 /tpg/Public/cate/js/cufon-replace.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002029s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:25:33+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:28:01+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003243s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:28:01+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:28:17+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:28:17+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:33:11+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002453s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:33:11+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:43:24+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003195s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T15:43:24+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002239s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:41:21+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:41:21+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002094s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:41:53+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:41:55+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:45:14+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:45:14+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:45:20+08:00 ] 127.0.0.1 /tpg/Public/cate/js/cufon-replace.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:45:32+08:00 ] 127.0.0.1 /tpg/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-08T16:45:39+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004287s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:45:39+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003901s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:46:23+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:46:23+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004306s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:46:37+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T16:46:37+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T17:01:06+08:00 ] 127.0.0.1 /tpg/Public/cate/js/cufon-replace.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007467s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T19:59:09+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T19:59:20+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T19:59:45+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T19:59:45+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T21:25:21+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002151s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T21:26:22+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T21:26:23+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004887s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T21:26:49+08:00 ] 127.0.0.1 /tpg/assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-08T21:27:10+08:00 ] 127.0.0.1 /tpg/Public/admin/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002325s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T21:31:19+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004180s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T21:31:42+08:00 ] 127.0.0.1 /tpg/Public/images/jdbg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003763s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T21:31:42+08:00 ] 127.0.0.1 /tpg/Public/images/more5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T21:31:53+08:00 ] 127.0.0.1 /tpg/Public/cate/js/cufon-replace.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-08T21:52:47+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T21:56:48+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T22:50:24+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002324s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T22:50:36+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002457s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T22:50:44+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002142s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T22:50:55+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T22:50:57+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002046s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T22:51:04+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002056s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T22:51:39+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+ERR: 无法加载模块:Worker
+
+[ 2017-05-08T22:51:49+08:00 ] 127.0.0.1 /tpg/worker.appcache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+ERR: 无法加载模块:Worker
+

@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS鼠标滑过缩略图放大显示大图+描述</title>
+<style type="text/css">
+/*html{overflow:hidden;}*/
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+/*body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";background:#000;width:100%;height:100%;}*/
+/* box */
+#box{position:relative;background:#111;border:gray solid 1px;visibility:hidden;}
+#screen{position:absolute;left:0px;width:100%;top:10%;height:80%;background:#000;border:gray solid 1px;}
+#box img {position:absolute;border:gray solid 1px;cursor:pointer;}
+#box span{position:absolute;color:#ccc;font-family:verdana;font-size:12px;width:200px;}
+#box a{text-decoration:none;color:#ff8000;}
+#box a:hover{text-decoration:none;background:#ff8000;color:#ffffff;}
+#box a:visited{text-decoration:none;color:#ff8000;}
+#box a:visited:hover{text-decoration:none;background:#ff8000;color:#ffffff;}
+#lnk{visibility:hidden;}
+.button {display: inline-block;zoom: 1; *display: inline;vertical-align: baseline;margin: 0 2px;outline: none;cursor: pointer;text-align: center;text-decoration: none;font: 14px/100% Arial, Helvetica, sans-serif;padding:0.25em 0.6em 0.3em;text-shadow: 0 1px 1px rgba(0,0,0,.3);-webkit-border-radius: .5em; -moz-border-radius: .5em;border-radius: .5em;-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.red {color: #faddde;border: solid 1px #980c10;background: #d81b21;background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#A51715));background: -moz-linear-gradient(top,  #ed1c24,  #A51715);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317'); font-size:14px!important;}
+.red:hover { background: #b61318; background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115)); background: -moz-linear-gradient(top,  #c9151b,  #a11115); filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115'); color:#fff;}
+.red:active {color: #de898c;background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');}
+.keTitle{ height: 60px; line-height: 60px; font-size: 28px; font-family: '微软雅黑'; color: #FFF; text-align: center; font-weight: normal; position: fixed; width: 100%; left: 0; top: 0; z-index: 999; padding: 0px 0px 8px; opacity:0.8; }
+.keBottom{ color: #FFF; height: 60px; text-align: center; position: fixed; width: 100%; left: 0; bottom: 0; z-index: 999; font: 18px/60px "微软雅黑"; padding: 3px 0px 5px;opacity:0.8;  }
+.keBottom a,.keBottom a:hover{color:#fff;}
+</style>
+
+<script type="text/javascript">
+document.onselectstart = new Function("return false");
+O    = new Array();
+box  = 0;
+img  = 0;
+txt  = 0;
+tit  = 0;
+W    = 0;
+H    = 0;
+nI   = 0;
+sel  = 0;
+si   = 0;
+ZOOM = 0;
+rImg = 0;
+//////////////////
+speed = .06; // animation speed
+delay = .5; // 1 = no delay
+//////////////////
+
+function dText(){
+	txt.style.textAlign = tit.style.textAlign = (sel<nI/2)?"left":"right";
+	txt.innerHTML = O[sel].tx;
+	tit.innerHTML = O[sel].ti;
+}
+
+function CObj(n, s, x, tx, ti){
+	this.n    = n;
+	this.dim  = s;
+	this.tx   = tx;
+	this.ti   = ti;
+	this.is   = img[n];
+	this.vz   = 0;
+	this.sx   = 0;
+	this.x0   = x;
+	this.x1   = 0;
+	this.zo   = 0;
+	this.over = function() {
+		with(this){
+			if(n!=sel){
+				O[sel].dim = 100;
+				O[n].dim = ZOOM * 100;
+				sel = n;
+				l = 0;
+				for(k=0; k<nI; k++){
+					O[k].x0 = l;
+					l += O[k].dim;
+				}
+				txt.innerHTML = tit.innerHTML = "";
+				setTimeout("dText()", 32);
+			}
+		}
+	}
+	this.anim = function () {
+		with(this){
+			vz  = speed*(vz+(x1-sx)*delay);
+			x1 -= vz;
+			sx  = (n==0)?0:O[n-1].x0+O[n-1].dim;
+			zo -= (zo-dim)*speed;
+			l   = (x1*si)+6*(n+1);
+			w   = zo*si;
+			is.style.left   = Math.round(l)+'px';
+			is.style.top    = Math.round((H-w*rImg)*.5)+'px';
+			is.style.width  = Math.round(w)+'px';
+			is.style.height = Math.round(w*rImg)+'px';
+			if(sel == n){
+				if(sel<nI*.5) {
+					tit.style.left = txt.style.left = Math.round(l+w+6)+'px';
+				} else {
+					tit.style.left = txt.style.left = Math.round(l-(nx*.25)-6)+'px';
+				}
+				txt.style.top = Math.round(-(w*rImg)*.25)+'px';
+				tit.style.top = Math.round((w*rImg)*.33)+'px';
+			}
+		}
+	}
+}
+
+function run(){
+	for(j in O)O[j].anim();
+	setTimeout("run()", 16);
+}
+
+function doResize(){
+	tit.style.width = Math.round(nx*.25)+'px';
+	txt.style.width = Math.round(nx*.25)+'px';
+	tit.style.fontSize = (nx/30)+'px';
+	txt.style.fontSize = (nx/70)+'px';
+	with(box.style){
+		width  = Math.round(W)+'px';
+		height = Math.round(H)+'px';
+		left   = Math.round(nx/2-W/2)+'px';
+		top    = Math.round(ny/2-H/2)+'px';
+	}
+}
+
+function resize(){
+	nx = scr.offsetWidth;
+	ny = scr.offsetHeight;
+	W  =  nx*90/100;
+	si = (W-((nI+1)*6))/((ZOOM*100)+((nI-1)*100));
+	H  = (100*si*rImg)+14;
+	doResize();
+}
+onresize = resize;
+
+onload = function(){
+	scr = document.getElementById("screen");
+	box = document.getElementById("box");
+	tit = document.getElementById("tit");
+	txt = document.getElementById("txt");
+	img = box.getElementsByTagName("img");
+
+	Lnk = document.getElementById("lnk").getElementsByTagName("a");
+	nI  = img.length;
+	ZOOM = nI;
+	rImg = img[0].height/img[0].width;
+	resize();
+	s = ZOOM * 100;
+	x = 0;
+	tit.innerHTML = img[0].title;
+	txt.innerHTML = img[0].alt;
+	for(i=0; i<nI; i++) {
+		var t = img[i].alt;
+		if(Lnk[i].href!="") t+='<br><a href="'+Lnk[i].href+'">'+Lnk[i].innerHTML+'</a>';
+		O[i] = new CObj(i, s, x, t, img[i].title);
+		img[i].alt = "";
+		img[i].title = "";
+		img[i].onmousedown = new Function("return false;");
+		img[i].onmouseover = new Function('O['+i+'].over();');
+		if(Lnk[i].href!=""){
+			/* ==== hyperlink ==== */
+			img[i].onclick = new Function('window.open("'+Lnk[i].href+'","_blank");');
+		}
+		x += s;
+		s = 100;
+	}
+	box.style.visibility = "visible";
+	run();
+}
+</script>
+</head>
+<body>
+<!-- <h1 class="keTitle">JS鼠标滑过缩略图放大显示大图+描述</h1> -->
+<!--效果html开始-->
+<div id="screen">
+	<div id="box">
+		<img src="images/newborn.jpg"  title="儿童房" alt="儿童简洁设计、温馨舒适。" />
+		<img src="images/majesty.jpg" title="餐厅" alt="舒适的暖色调，食欲浓厚。" />
+		<img src="images/whitemagic.jpg" title="厨房" alt="舒适的暖色调，吃饭香喷喷。" />
+		<img src="images/gazebo2k3.jpg" title="卧室" alt="舒适的沙发、床褥、睡觉呼噜噜！" />
+		<img src="images/pyre.jpg" title="客厅" alt="舒适的沙发、床褥、睡觉呼噜噜！" />
+		<img src="images/singularity.jpg" title="书房" alt="舒适的暖色调，吃饭香喷喷。" />
+		<img src="images/spellcraft.jpg" title="卫生间" alt="干爽、干净！" />
+		<span id="txt"></span>
+		<span id="tit"></span>
+		<span id="lnk">
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+		</span>
+	</div>
+</div>
+<!--效果html结束-->
+
+</body>
+</html>

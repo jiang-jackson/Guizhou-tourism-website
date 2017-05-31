@@ -1,0 +1,443 @@
+<include file="Public:header"/>
+
+<!-- 内容区域 -->
+        <div class="tpl-content-wrapper">
+
+            <div class="container-fluid am-cf">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-9">
+                        <div class="page-header-heading"><span class="am-icon-home page-header-heading-icon"></span> 表格 <small>贵州旅游网站</small></div>
+                        <p class="page-header-description"></p>
+                    </div>
+                    <div class="am-u-lg-3 tpl-index-settings-button">
+                        <button type="button" class="page-header-button"><span class="am-icon-paint-brush"></span> 设置</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row-content am-cf">
+
+
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-6">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">景点列表</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+                                <div class="am-scrollable-horizontal ">
+                                    <table width="600" class="am-table am-table-compact am-text-nowrap tpl-table-black " id="example-r" border="1">
+                                        <thead>
+                                            <tr>
+                                                <th>编号</th>
+                                                <th>景点名称</th>
+                                                <th>门票</th>
+                                                <th>景点特色</th>
+                                                <th>景点图片</th>
+                                                <th>景点介绍</th>
+                                                <th>添加时间</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <volist name="jingdians" id="jingdian">
+                                        <tr class="gradeX">
+                                                <td>{$i}</td>
+                                                <td>{$jingdian.jingdian_name}</td>
+                                                <td>{$jingdian.jingdian_price}</td>
+                                                <td>{$jingdian.jingdian_trait}</td>
+                                                <td><img src="{$jingdian.jingdian_image}" alt="" class="am-img-responsive"></td>
+                                                <td><p>{$jingdian.jingdian_content}</p></td>
+                                                <td>{$jingdian.jingdian_birth}</td>
+                                                <td>
+                                                    <div class="tpl-table-black-operation">
+                                                        <a href="/tpg/admin.php/home/Adminform/jingdianupdate?id={$jingdian.jingdian_id}">
+                                                            <i class="am-icon-pencil"></i> 编辑
+                                                        </a>
+                                                        <a href="/tpg/admin.php/home/Adminform/jingdianremove?id={$jingdian.jingdian_id}" class="tpl-table-black-operation-del">
+                                                            <i class="am-icon-trash"></i> 删除
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </volist>
+                                            
+                                           
+                                            <!-- more data -->
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-6">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">用户表格</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+
+                                <table width="100%" class="am-table am-table-compact tpl-table-black " id="example-r">
+                                    <thead>
+                                        <tr>
+                                            <th>编号</th>
+                                            <th>用户名</th>
+                                            <th>密码</th>
+                                            <th>邮箱</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <volist name="users" id="user">
+
+
+                                               <tr class="gradeX">
+                                            <td>{$i}</td>
+                                            <td>{$user.username}</td>
+                                            <td>{$user.password}</td>
+                                            <td>{$user.email}</td>
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a href="javascript:;">
+                                                        <i class="am-icon-pencil"></i> 编辑
+                                                    </a>
+                                                    <a href="/tpg/admin.php/home/Adminform/deleteuser?id={$user.id}" class="tpl-table-black-operation-del">
+                                                        <i class="am-icon-trash"></i> 删除
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                        
+                                       
+                                        <!-- more data -->
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                       <div class="am-u-sm-12 am-u-md-12 am-u-lg-6">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">评论列表</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+
+                                <table width="100%" class="am-table am-table-compact tpl-table-black " id="example-r">
+                                    <thead>
+                                        <tr>
+                                            <th>编号</th>
+                                            <th>评论者</th>
+                                            <th>景点名</th>
+                                            <th>景点缩略图</th>
+                                            <th>评论内容</th>
+                                             <th>评论时间</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <volist name="pingluns" id="pinglun">
+
+
+                                               <tr class="gradeX">
+                                            <td>{$i}</td>
+                                            <td>{$pinglun.username}</td>
+                                            <td>{$pinglun.jingdian_name}</td>
+                                            <td><img src="{$pinglun.jingdian_image}" alt="" class="am-img-responsive"></td>
+                                             <td>{$pinglun.pinglun_content}</td>
+                                             <td>{$pinglun.pinglun_birth}</td>
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a href="javascript:;">
+                                                        <i class="am-icon-pencil"></i> 编辑
+                                                    </a>
+                                                    <a href="/tpg/admin.php/home/Adminform/deletepinglun?id={$pinglun.pinglun_id}" class="tpl-table-black-operation-del">
+                                                        <i class="am-icon-trash"></i> 删除
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                        
+                                       
+                                        <!-- more data -->
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+                       <div class="am-u-sm-12 am-u-md-12 am-u-lg-6">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">留言统计</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+
+                                <table width="100%" class="am-table am-table-compact tpl-table-black " id="example-r">
+                                    <thead>
+                                        <tr>
+                                            <th>编号</th>
+                                            <th>留言者</th>
+                                            <th>留言者邮箱</th>
+                                            <th>留言内容</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <volist name="messages" id="message">
+
+
+                                               <tr class="gradeX">
+                                            <td>{$i}</td>
+                                            <td>{$message.message_fromname}</td>
+                                            <td>{$message.message_fromemail}</td>
+                                            <td>{$message.message_content}</td>
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a href="javascript:;">
+                                                        <i class="am-icon-pencil"></i> 编辑
+                                                    </a>
+                                                    <a href="/tpg/admin.php/home/Adminform/deletemessage?id={$message.message_id}" class="tpl-table-black-operation-del">
+                                                        <i class="am-icon-trash"></i> 删除
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                        
+                                       
+                                        <!-- more data -->
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">美食列表</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+
+                                <table width="100%" class="am-table am-table-compact am-table-bordered tpl-table-black " id="example-r">
+                                    <thead>
+                                        <tr>
+                                            <th>编号</th>
+                                            <th>美食名称</th>
+                                            <th>图片</th>
+                                            <th>价格</th>
+                                            <th>所在地区</th>
+                                            <th>介绍</th>
+                                            
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <volist name="meishis" id="meishi">
+
+
+
+                                            <tr class="gradeX">
+                                            <td>{$i}</td>
+                                            <td>{$meishi.meishi_name}</td>
+                                            <td><img src="{$meishi.meishi_image}" alt="" class="am-img-responsive"></td>
+                                            <td>{$meishi.meishi_price}</td>
+                                            <td>{$meishi.meishi_site}</td>
+                                             <td>{$meishi.meishi_content}</td>
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a href="/tpg/admin.php/home/Adminform/meishiupdate?id={$meishi.id}">
+                                                        <i class="am-icon-pencil"></i> 编辑
+                                                    </a>
+                                                    <a href="/tpg/admin.php/home/Adminform/meishiremove?id={$meishi.id}" class="tpl-table-black-operation-del">
+                                                        <i class="am-icon-trash"></i> 删除
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </volist>
+                                        
+                                        
+                                        <!-- more data -->
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">旅游线路；列表</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+
+                                <table width="100%" class="am-table am-table-compact am-table-bordered am-table-radius am-table-striped tpl-table-black " id="example-r">
+                                    <thead>
+                                        <tr>
+                                            <th>编号</th>
+                                            <th>线路名称</th>
+                                            <th>线路行程</th>
+                                            <th>价格</th>
+                                            <th>线路封面</th>
+                                            <th>推荐理由</th>
+                                            <th>添加时间</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <volist name="xianlus" id="xianlu">
+
+                                        <tr class="gradeX">
+                                            <td>{$i}</td>
+                                            <td>{$xianlu.xianlu_name}</td>
+                                            <td>{$xianlu.xianlu_content}</td>
+                                            <td>{$xianlu.xianlu_price}</td>
+
+                                            <td><img src="{$xianlu.xianlu_image}" alt="" class="am-img-responsive"></td>
+                                            <td>{$xianlu.xianlu_reason}</td>
+                                            <td>{$xianlu.xianlu_birth}</td>
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a href="javascript:;">
+                                                        <i class="am-icon-pencil"></i> 编辑
+                                                    </a>
+                                                    <a href="/tpg/admin.php/home/Adminform/xianluremove?id={$xianlu.xianlu_id}" class="tpl-table-black-operation-del">
+                                                        <i class="am-icon-trash"></i> 删除
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                    </volist>
+                                        
+                                        <!-- more data -->
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">酒店列表</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+
+                                <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+                                    <thead>
+                                        <tr>
+                                            <th>编号</th>
+                                            <th>酒店名字</th>
+                                            <th>价格</th>
+                                            <th>链接</th>
+                                            <th>所在地区</th>
+                                            <th>封面</th>
+                                            <th>星级</th>
+                                            <th>简介</th>
+                                            
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <volist name="jiudians" id="jiudian">
+
+
+                                          <tr class="gradeX">
+                                            <td>{$i}</td>
+                                            <td>{$jiudian.jiudian_name}</td>
+                                            <td>{$jiudian.jiudian_price}</td>
+                                            <td><a href="{$jiudian.jiudian_tel}" title="">酒店链接</a></td>
+                                            <td>{$jiudian.jiudian_site}</td>
+                                            <td><img src="{$jiudian.jiudian_image}" alt="" class="am-img-responsive"></td>
+                                            <td>{$jiudian.jiudian_star}</td>
+                                            <td>{$jiudian.jiudian_content}</td>
+
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a href="javascript:;">
+                                                        <i class="am-icon-pencil"></i> 编辑
+                                                    </a>
+                                                    <a href="/tpg/admin.php/home/Adminform/jiudianremove?id={$jiudian.jiudian_id}" class="tpl-table-black-operation-del">
+                                                        <i class="am-icon-trash"></i> 删除
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                    </volist>
+                                        
+                                        <!-- more data -->
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="__PUBLIC__/admin/js/amazeui.min.js"></script>
+    <script src="__PUBLIC__/admin/js/amazeui.datatables.min.js"></script>
+    <script src="__PUBLIC__/admin/js/dataTables.responsive.min.js"></script>
+    <script src="__PUBLIC__/admin/js/app.js"></script>
+
+</body>
+
+</html>

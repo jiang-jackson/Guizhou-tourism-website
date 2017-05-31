@@ -1,0 +1,112 @@
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6, h7, ul, ul li, ol, ol li, dl, dl dt, dl dd, form, img, p, b, div, a{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+body, html{
+	margin: 0 auto;
+}
+body {
+    font-family: "微软雅黑","宋体","Arial";
+    color: #000000;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 1.5;
+    position: relative;
+    float: left;
+}
+
+/*页尾部分css*/
+.footer{
+	width: 100%;
+	background: #2683fc;
+	float: left;
+	margin-top: 30px;
+}
+.footer .content{
+	/*width: 1200px;*/
+	margin:0 auto;
+}
+
+.footer-link span {
+    font-size: 14px;
+    float: left;
+    text-align: right;
+    line-height: 22px;
+    color: #fff;
+    margin-right: 10px;
+}
+.hotziyou{
+	margin-top: 12px;
+	overflow: hidden;
+}
+.hotziyou ul{
+	float: left;
+	/*width: 1100px;*/
+}
+.hotziyou ul li{
+	float: left;
+	margin: 2px 8px 0 2px;
+	font-size: 12px;
+	}
+.hotziyou ul li a{
+	color: #C3EAFD;
+	text-decoration: none;
+}
+.hotziyou ul li a:hover {
+	color: #fff;
+}
+.footer-link ul .list{
+	float: left;
+              width: 120px;
+             text-align: center;
+             line-height: 18px;
+             overflow: hidden;
+             color: #79c8ef;
+            margin: 3px 13px 2px 0;
+            font-size: 12px;
+}
+.Contact {
+   font-size: 14px;
+    float: left;
+    line-height: 26px;
+    color: #C3EAFD;
+    margin: 20px 0px 30px 95px;
+
+}
+.About {
+    float: left;
+    padding: 30px 0 0;
+    margin:60px 0px 0px 100px;
+}
+.About p {
+   font-size: 14px;
+    color: #C3EAFD;
+    height: 30px;
+    line-height: 40px;
+}
+.About p  a{
+	font-size: 14px;
+	color: #C3EAFD;
+	text-decoration: none;
+}
+.About p  a:hover{
+	color: #fff;
+}
+
+/*ie8兼容问题*/
+/*.container {
+    width: 1170px;
+}*/
+.col-md-3 {
+    width: 25%;
+    float: left;
+    display: inline;
+}
+
+/*ie8兼容问题*/
+

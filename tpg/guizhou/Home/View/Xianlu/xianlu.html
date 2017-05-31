@@ -1,0 +1,290 @@
+<include file="Public:header"/>
+<link href="__PUBLIC__/jindian/whir_css.css" rel="stylesheet" type="text/css">
+<style type="text/css" media="screen">
+  .mylist{
+    font-size: 14px;
+  }
+</style>
+<li class="mylist"><a href="/tpg/">旅游首页 <span class="sr-only">(current)</span></a></li>
+        <li class="mylist"><a href="/tpg/home/about/about">关于贵州</a></li>
+        <li class="mylist"><a href="/tpg/home/jingdian/jingdian">旅游景点</a></li>
+        <li class="active mylist"><a href="/tpg/home/xianlu/xianlu">时尚线路</a></li>
+        <li class="mylist"><a href="/tpg/home/cate/cate">舌尖美食</a></li>
+        <li class="mylist"><a href="/tpg/home/hotels/hotel">酒店信息</a></li>
+        
+       <li><a href="/tpg/Home/Message/message">留言板</a></li>
+        <li class="mylist"><a href="/tpg/admin.php">后台管理</a></li>
+      
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</div>
+  <!--nav-->
+
+
+<!-- 主要内容区域 -->
+<!-- <div style="height: 800px;"></div> -->
+<div id="subbox">
+<div class="position">当前位置：<a href="lvyoujingdian.html">贵州旅游</a> > 时尚线路</div>
+
+<!--经典线路-->
+<div class="jdxl">
+<div class="titlei1"><h1>经典线路</h1><a href="#">更多></a></div>
+<div class="column2">
+<volist name="xianlus" id="xianlu">
+
+
+     <div class="xllist wow bounceInDown">
+ <dt><img src="{$xianlu.xianlu_image}" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="/tpg/home/show/showxianlu?id={$xianlu.xianlu_id}" >{$xianlu.xianlu_content}</a></h1>
+          <p><em>推荐理由:</em>{$xianlu.xianlu_reason}</p>
+          <span class="more"><a href="/tpg/home/show/showxianlu?id={$xianlu.xianlu_id}" >查看详细 ></a></span></dd>
+</div>
+</volist>
+
+<!-- <div class="xllist">
+ <dt><img src="./jindian/qinyan.jpeg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳—贵定—福泉(洒金谷)—都匀(斗篷山)—三都(尧人山)—荔波—独山—平塘(掌布国家地质公园)—罗甸(高原千岛湖)—(杜鹃湖)</a></h1>
+          <p><em>推荐理由:</em>黔南荔波县的樟江和茂兰被联合国教科文组织誉为“地球上同纬度的最后一颗绿宝石”，被列为“世界自然遗产”。</p>
+          <span class="more"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/huangguo.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳(花溪公园、青岩古镇、甲秀楼)—安顺(天龙屯堡、龙宫、黄果树瀑布、天星桥)—兴义(马岭河、万峰林)</a></h1>
+          <p><em>推荐理由:</em>线路独具特色，那里有原生态的自然环境、浓郁的少数民族风情、特殊的喀斯特地貌等等，集自然风光、漂流探险、科普教育、民俗历史为一体，适合自驾游或包车游。</p>
+          <span class="more"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/zhangjiang.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳—息烽(集中营纪念馆)—遵义(遵义会议会址)—仁怀(国酒文化城)—习水(土城四渡赤水纪念馆)—赤水(十丈洞、桫椤自然保护区、竹海)</a></h1>
+          <p><em>推荐理由:</em>贵州拥有丰富的红色旅游资源，这条线路沿着红军长征时的足迹，遍及贵州的大部分地区，缅怀大量的革命文物与遗迹。</p>
+          <span class="more"><a href="" >查看详细 ></a></span></dd>
+</div> -->
+</div>
+</div>
+
+<!--自然之旅-->
+<div class="zrzl">
+<div class="titlei2"><h1>自然之旅</h1><a href="#">更多></a></div>
+<div class="column2">
+<volist name="nature" id="one">
+     <div class="xllist wow rollIn">
+ <dt><img src="{$one.xianlu_image}" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="/tpg/home/show/showxianlu?id={$one.xianlu_id}">{$one.xianlu_content}</a></h1>
+          <p><em>推荐理由:</em>{$one.xianlu_reason}</p>
+          <span class="more1"><a href="/tpg/home/show/showxianlu?id={$one.xianlu_id}" >查看详细 ></a></span></dd>
+</div>
+</volist>
+
+<!-- <div class="xllist">
+ <dt><img src="./jindian/caohai.jpeg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳—六枝(陇嘎苗寨观赏长角苗、岩脚镇)—威宁(凤山寺、玉皇阁)—草海观鸟</a></h1>
+          <p><em>推荐理由:</em>威宁草海湖中多沼泽，盛产芦苇与蒲草，故而多鱼类和鸟类，如细黄鱼及长尾雉、白腹锦鸡、大雁、黄鸭、白鹳、丹顶鹤、黑颈鹤等155种水鸟，是国内观鸟胜地，四季宜人，被誉为“高原明珠”。</p>
+          <span class="more1"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/xiaoqikong.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">黔南州荔波县(大七孔、小七孔、水春河)—贵阳(青岩古镇、花溪公园、甲秀楼、黔灵公园)—安顺(黄果树大瀑布、陡坡塘瀑布、天星桥、龙宫塘)—毕节(织金洞)</a></h1>
+          <p><em>推荐理由:</em>就算在酷夏时节，这条线路全程气温不超过25度，一路上溪流戏水，大河漂流，钻瀑布，走溶洞，体验十足的清凉水世界。</p>
+          <span class="more1"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/miaozhai.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">凯里(南花苗寨)—雷山(西江千户苗寨、郎德苗寨、雷公山)—麻江(农民绘画之乡铜鼓)—丹寨(卡拉村)—榕江(侗族风情)</a></h1>
+          <p><em>推荐理由:</em>该条路线以观赏苗侗风情、民族建筑和苗岭风光为主。</p>
+          <span class="more1"><a href="" >查看详细 ></a></span></dd>
+</div> -->
+</div>
+</div>
+
+<!--文化之旅-->
+<div class="zrzl">
+<div class="titlei3"><h1>文化之旅</h1><a href="#">更多></a></div>
+<div class="column2">
+
+<volist name="cultrue" id="one">
+
+            <div class="xllist wow bounceInRight">
+      <dt><img src="{$one.xianlu_image}" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="d/tpg/home/show/showxianlu?id={$one.xianlu_id}">{$one.xianlu_content}</a></h1>
+          <p><em>推荐理由:</em>{$one.xianlu_reason}
+ </p>
+          <span class="more2"><a href="/tpg/home/show/showxianlu?id={$one.xianlu_id}" >查看详细 ></a></span></dd>
+</div>
+</volist>
+
+<!-- <div class="xllist">
+ <dt><img src="./jindian/qiandaohu.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳—贵定—福泉(洒金谷)—都匀(斗篷山)—三都(尧人山)—荔波—独山—平塘(掌布国家地质公园)—罗甸(高原千岛湖)—(杜鹃湖)</a></h1>
+          <p><em>推荐理由:</em>黔南是个多民族杂居的地方，有布依族、苗族、水族、瑶族、壮族、侗族、毛南族等，民族节日盛会丰富多彩。
+ </p>
+          <span class="more2"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/jiayalaozhai.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳—榕江(加两村、朗开村、摆绞村、污讲土家寨)—从江(加牙老寨、加鸠)</a></h1>
+          <p><em>推荐理由:</em>月亮山腹地榕江县与从江县的交界处平均海拔均一千米以上，相对温差较低，地形复杂多有沼泽，适合探险猎奇。而沿途的淳朴民族风情，又能给这个惊奇的旅程增添浓郁的原生态魅力。
+</p>
+          <span class="more2"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/jianhe.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">(三宝侗寨)—从江(岜沙苗寨)—黎平(肇兴侗寨、地坪风雨桥)—锦屏(隆里古镇)—剑河(剑河温泉)—台江(施洞苗寨)</a></h1>
+          <p><em>推荐理由:</em>看多了城市里面钢筋混泥土装扮的楼宇森林，是否想回到大自然的怀抱中，亲近青山绿水、仰望呼吸新蓝天白云、呼吸新鲜空气。</p>
+          <span class="more2"><a href="" >查看详细 ></a></span></dd>
+</div> -->
+</div>
+</div>
+
+<!--研学之旅-->
+<div class="zrzl">
+<div class="titlei4"><h1>研学之旅</h1><a href="#">更多></a></div>
+<div class="column2">
+
+  <volist name="study" id="one">
+      <div class="xllist wow bounceInUp">
+     <dt><img src="{$one.xianlu_image}" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="/tpg/home/show/showxianlu?id={$one.xianlu_id}">{$one.xianlu_content}</a></h1>
+          <p><em>推荐理由:</em>{$one.xianlu_reason}</p>
+          <span class="more3"><a href="/tpg/home/show/showxianlu?id={$one.xianlu_id}" >查看详细 ></a></span></dd>
+</div>
+  </volist>
+
+<!-- <div class="xllist">
+ <dt><img src="./jindian/fanjinshan.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">镇远(历史文化名城、青龙洞、氵舞阳河、铁溪、报京侗寨)—铜仁(十里锦江、九龙洞)—江口(梵净山、黑湾河佛教文化园、云舍土家民族村)</a></h1>
+          <p><em>推荐理由:</em>这条线路连接交通方便，基本包括贵州民俗山水的精华，并且线路可因应假期增减组合所有贵州的旅行景点。</p>
+          <span class="more3"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/longjiashan.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳—龙里(龙里草原、龙架山)—黄平(重安江三朝桥、飞云崖、野洞河漂流)—施秉(云台山、杉木河漂流)</a></h1>
+          <p><em>推荐理由:</em>这条线路囊括了贵州最美丽最原汁原味的古老村寨和古镇，青山绿水围绕，吊脚灰檐遍布。</p>
+          <span class="more3"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/zhijindong.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳(青岩古镇、花溪公园、甲秀楼、黔灵公园)—安顺(黄果树大瀑布、陡坡塘瀑布、天星桥、龙宫塘)—毕节(织金洞)</a></h1>
+          <p><em>推荐理由:</em>在小7孔戏水的欢乐，在水春河漂流的刺激，黄果树大瀑布的雄伟壮观，龙宫入口的世外桃源，织金洞的银雨树等别处所无的奇特造型，会给人带来一段令人愉悦的旅程。</p>
+          <span class="more3"><a href="" >查看详细 ></a></span></dd>
+</div> -->
+</div>
+</div>
+
+<!--研学之旅-->
+<div class="zrzl">
+<div class="titlei5"><h1>红色之旅</h1><a href="#">更多></a></div>
+<div class="column2">
+
+<volist name="redtour" id="one">
+       <div class="xllist wow swing">
+ <dt><img src="{$one.xianlu_image}" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="/tpg/home/show/showxianlu?id={$one.xianlu_id}">{$one.xianlu_content}</a></h1>
+          <p><em>推荐理由:</em>{$one.xianlu_reason}</p>
+          <span class="more4"><a href="/tpg/home/show/showxianlu?id={$one.xianlu_id}" >查看详细 ></a></span></dd>
+</div>
+</volist>
+<!-- <div class="xllist">
+ <dt><img src="./jindian/guojiu.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">贵阳—息烽(集中营纪念馆)—遵义(遵义会议会址)—仁怀(国酒文化城)—习水(土城四渡赤水纪念馆)—赤水(十丈洞、桫椤自然保护区、竹海)</a></h1>
+          <p><em>推荐理由:</em>贵州拥有丰富的红色旅游资源，这条线路沿着红军长征时的足迹，遍及贵州的大部分地区，缅怀大量的革命文物与遗迹。</p>
+          <span class="more4"><a href="" >查看详细 ></a></span></dd>
+</div> -->
+<!-- <div class="xllist">
+ <dt><img src="./jindian/hongjunshan.jpeg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">仁怀(国酒文化城、盐津温泉)—习水(土城四渡赤水纪念馆)--贵阳—息烽(集中营纪念馆)—遵义(遵义会议会址、红军山、海龙屯、娄山关)</a></h1>
+          <p><em>推荐理由:</em>这条线路沿着红军长征时的足迹，遍及贵州的大部分地区，缅怀大量的革命文物与遗迹。</p>
+          <span class="more4"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/datong.jpg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">仁怀(国酒文化城、盐津温泉)—习水(土城四渡赤水纪念馆)—赤水(十丈洞、桫椤自然保护区、竹海、丙安古镇、大同古镇)</a></h1>
+          <p><em>推荐理由:</em>看多了城市里面钢筋混泥土装扮的楼宇森林，是否想回到大自然的怀抱中，亲近青山绿水、仰望呼吸新蓝天白云、呼吸新鲜空气。</p>
+          <span class="more4"><a href="" >查看详细 ></a></span></dd>
+</div>
+<div class="xllist">
+ <dt><img src="./jindian/jizhongying.jpeg" width="196" height="138" /></dt>
+        <dd>
+          <h1><a href="display.html">息烽(集中营纪念馆)—遵义(遵义会议会址、红军山、海龙屯、娄山关)</a></h1>
+          <p><em>推荐理由:</em>这些丰富的红色遗迹在时代的硝烟下不应该被遗忘，而要作为爱国主义教育基地，让更多的年轻一代学习先烈们的精神。</p>
+          <span class="more4"><a href="" >查看详细 ></a></span></dd>
+</div> -->
+</div>
+</div>
+        
+
+</div>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ <!--main-->
+<include file="Public:foot"/>
+  
+</body>
+    <script src="../style/js/jquery-1.11.1.min.js"></script>
+    <script src="style/js/bootstrap.min.js"></script>
+    <script src="../style/js/foot.js"></script>
+    <script>
+	 $(".search-menu").find("dl").find("dd").find("span").click(function(){
+	 	 $(this).addClass("active");
+	 	 $(this).siblings().removeClass("active");
+	 })
+</script>
+    <script>
+    new WOW().init();
+    
+    $(".navbar-nav").children("li").click(function(){
+    	$(this).addClass("active1");
+    	$(this).siblings().remove("active1");
+    })
+    
+    $(".city").children("span").click(function(){
+    	$(".city-m").text($(this).text());
+    })
+    
+    $(".city-xuan").children("ul").find("li").click(function(){
+    	$(this).addClass("active");
+    	$(this).siblings().removeClass("active");
+    })
+    
+    	$(".bao-xuan").children("li").click(function(){
+    		$(this).addClass("active");
+    		$(this).siblings().removeClass("active");
+    	})
+    	
+    	
+    </script>
+</html>
